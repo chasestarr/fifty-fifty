@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chasestarr/fifty-fifty/issues"
   },
-  "homepage": "https://github.com/chasestarr/fifty-fifty#readme"
+  "homepage": "https://github.com/chasestarr/fifty-fifty#readme",
+  "dependencies": {
+    "yelp": "^1.0.1"
+  }
 }
