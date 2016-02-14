@@ -1,1 +1,25 @@
-<h1>Hello World</h1>
+<DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<title>Fifty-Fifty</title>
+<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+<style>
+    body { margin:0; padding-top:1em; font-family: Roboto; }
+    #map { position:absolute; top:4em; bottom:0; width:100%; margin-top: 1.5em;}
+    #header {margin-left: .5em;}
+</style>
+</head>
+<body>
+    <h1 id='header'>Fifty-Fifty</h1>
+    <p>{{data.center}}</p>
+    <div id='map'></div>
+    <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiY2hhc2VzdGFyciIsImEiOiJjaWtjczAydzkwbTFydjBrcGFmcmV6a3p4In0.7N_qPo1tQlE943MlZyFkfw';
+        L.mapbox.map('map', 'mapbox.streets').setView({{center|json|raw}}, 12)
+            .featureLayer.setGeoJSON({{geojson|json|raw}});
+    </script>
+</body>
+</html>

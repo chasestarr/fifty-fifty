@@ -1,468 +1,348 @@
 {
-  "center": {
-    "latitude": 28.04465365,
-    "longitude": -82.40767305
-  },
+  "center": [
+    28.023920966862,
+    -82.43762865
+  ],
   "geoJSON": [
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4000349,
+          28.0553173
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4263149,
-            28.04986
-          ]
-        },
-        "properties": {
-          "title": "Pizza Squared",
-          "description": "Address: 11124 N 30th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "pizza-squared-tampa"
-      }
+      "properties": {
+        "title": "Felicitous",
+        "description": "Address: 11706 N 51st St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "felicitous-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4060211181641,
+          28.032190322876
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.393811121583,
-            28.0481191724539
-          ]
-        },
-        "properties": {
-          "title": "Five Star Pizza",
-          "description": "Address: 10926 N 56th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "five-star-pizza-tampa"
-      }
+      "properties": {
+        "title": "Sacred Grounds",
+        "description": "Address: 4819 E Busch Blvd<br>Rating: &#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "sacred-grounds-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4300842285156,
+          28.0553493499756
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.3551966995001,
-            28.032148629427
-          ]
-        },
-        "properties": {
-          "title": "Brooklyn NY Pizza",
-          "description": "Address: 8763 Temple Terrace Hwy<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "brooklyn-ny-pizza-temple-terrace"
-      }
+      "properties": {
+        "title": "Mojo Books Records Coffee & Tea",
+        "description": "Address: 2540 E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "mojo-books-records-coffee-and-tea-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.443811,
+          28.069055
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4509999,
-            28.00123
-          ]
-        },
-        "properties": {
-          "title": "Hampton Station",
-          "description": "Address: 5921 N Nebraska Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "hampton-station-tampa"
-      }
+      "properties": {
+        "title": "Kaleisia Tea Lounge",
+        "description": "Address: 1441 E Fletcher Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "kaleisia-tea-lounge-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.459154,
+          28.000023
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4276801888855,
-            28.0810030240854
-          ]
-        },
-        "properties": {
-          "title": "Wood Fired Pizza Wine Bar",
-          "description": "Address: 2822 E Bearss Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "wood-fired-pizza-wine-bar-tampa"
-      }
+      "properties": {
+        "title": "Jet City Espresso",
+        "description": "Address: 5803 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "jet-city-espresso-tampa-2"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3935113847256,
+          28.0463790893555
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4597473,
-            28.0164204
-          ]
-        },
-        "properties": {
-          "title": "Heights Pizza",
-          "description": "Address: Seminole Heights<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "heights-pizza-tampa"
-      }
+      "properties": {
+        "title": "Al-Aqsa Coffee House",
+        "description": "Address: 10819 N 56th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "al-aqsa-coffee-house-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4003067016602,
+          28.0548534393311
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4320831298828,
-            28.0689163208008
-          ]
-        },
-        "properties": {
-          "title": "Bruno's Pizza Pie",
-          "description": "Address: 2301 E Fletcher Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "brunos-pizza-pie-tampa-3"
-      }
+      "properties": {
+        "title": "Starbucks",
+        "description": "Address: 5006 E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "starbucks-tampa-27"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4035441875458,
+          28.087797933724
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.3786676,
-            28.0545949
-          ]
-        },
-        "properties": {
-          "title": "Marco's Pizza",
-          "description": "Address: 6712 E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "marcos-pizza-tampa-3"
-      }
+      "properties": {
+        "title": "You Do The Dishes",
+        "description": "Address: 15357 Amberly Dr<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "you-do-the-dishes-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4378128,
+          28.0688801
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.3994445800781,
-            28.0551872253418
-          ]
-        },
-        "properties": {
-          "title": "CDB'S Italian",
-          "description": "Address: 5104 E Fowler Ave<br>Rating: &#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "cdbs-italian-tampa"
-      }
+      "properties": {
+        "title": "Loving Hut",
+        "description": "Address: 1905 E Fletcher Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "loving-hut-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4596634,
+          27.9919891
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.398811340332,
-            28.0320796966553
-          ]
-        },
-        "properties": {
-          "title": "Pizza d'Carlo Gourmet Pizza",
-          "description": "Address: 5101 E Busch Blvd<br>Rating: &#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "pizza-d-carlo-gourmet-pizza-tampa"
-      }
+      "properties": {
+        "title": "The Independent",
+        "description": "Address: 5016 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "the-independent-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4597015380859,
+          28.0068454742432
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.459663,
-            27.991259
-          ]
-        },
-        "properties": {
-          "title": "Cappy's Pizzeria",
-          "description": "Address: 4910 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "cappys-pizzeria-tampa-2"
-      }
+      "properties": {
+        "title": "The Blind Tiger Cafe",
+        "description": "Address: 6500 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "the-blind-tiger-cafe-tampa-7"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4124979598144,
+          28.0596543204794
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4311218261719,
-            28.0805606842041
-          ]
-        },
-        "properties": {
-          "title": "Mei's World Pizza and Salads",
-          "description": "Address: 2592 E Bearss Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "meis-world-pizza-and-salads-tampa"
-      }
+      "properties": {
+        "title": "Starbucks",
+        "description": "Address: University of South Florida Library<br>Rating: &#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "starbucks-tampa-13"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4123751,
+          28.0834726
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.399524897337,
-            28.0985333025455
-          ]
-        },
-        "properties": {
-          "title": "Cappy's Pizzeria",
-          "description": "Address: 16019 Tampa Palms Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "cappys-pizzeria-tampa-4"
-      }
+      "properties": {
+        "title": "Twist Vapor Cafe",
+        "description": "Address: 14937 Bruce B Downs Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "twist-vapor-cafe-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4549407958984,
+          27.9965362548828
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.428923,
-            28.0546949
-          ]
-        },
-        "properties": {
-          "title": "Westshore Pizza",
-          "description": "Address: 2784-A  E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "westshore-pizza-tampa-18"
-      }
+      "properties": {
+        "title": "Starbucks",
+        "description": "Address: 502 E Hillsborough Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "starbucks-tampa-21"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.428614795208,
+          28.057012706995
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.3933919,
-            28.0288492
-          ]
-        },
-        "properties": {
-          "title": "Bacco and Venere",
-          "description": "Address: 8787 N 56th St<br>Rating: &#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "bacco-and-venere-temple-terrace"
-      }
+      "properties": {
+        "title": "The Boba House",
+        "description": "Address: 2764 University Sq Dr<br>Rating: &#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "the-boba-house-tampa-2"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4378051757812,
+          27.9600448608398
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4125239,
-            28.0833238
-          ]
-        },
-        "properties": {
-          "title": "Papa John's Pizza",
-          "description": "Address: 14917 Bruce B Downs Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "papa-johns-pizza-tampa-9"
-      }
+      "properties": {
+        "title": "The Blind Tiger Cafe - Ybor City",
+        "description": "Address: 1901 E 7th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "the-blind-tiger-cafe-ybor-city-tampa-5"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4378099829458,
+          27.9613126032645
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.415024,
-            28.032183
-          ]
-        },
-        "properties": {
-          "title": "Pizza Hut",
-          "description": "Address: 4011 E Busch Blvd<br>Rating: &#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "pizza-hut-tampa-17"
-      }
+      "properties": {
+        "title": "The Bunker",
+        "description": "Address: 1907 N 19th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "the-bunker-tampa-3"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4362139,
+          27.9603949
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.4296549,
-            28.06936
-          ]
-        },
-        "properties": {
-          "title": "ABC Pizza",
-          "description": "Address: 13508 University Plz St<br>Rating: &#9733;&#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "abc-pizza-tampa-2"
-      }
+      "properties": {
+        "title": "Naviera Coffee Mills",
+        "description": "Address: 2012 E 7th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "naviera-coffee-mills-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4555892944336,
+          28.0032176971436
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.3735123,
-            27.9953308
-          ]
-        },
-        "properties": {
-          "title": "Westshore Pizza",
-          "description": "Address: 5310 Orient Rd<br>Rating: &#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "westshore-pizza-tampa-14"
-      }
+      "properties": {
+        "title": "Mikey's Cafe & Bakery Co.",
+        "description": "Address: 6114 N Central Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "mikeys-cafe-and-bakery-co-tampa"
     },
     {
-      "center": {
-        "latitude": 28.04465365,
-        "longitude": -82.40767305
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4817123413086,
+          28.0250263214111
+        ]
       },
-      "geoJSON": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.3937842994928,
-            28.0455482751131
-          ]
-        },
-        "properties": {
-          "title": "Pizza Hut",
-          "description": "Address: 10694 N 56th St., #7<br>Rating: &#9733;&#9733;",
-          "marker-color": "#fc4353",
-          "marker-size": "small"
-        },
-        "id": "pizza-hut-temple-terrace-2"
-      }
+      "properties": {
+        "title": "Got Tea",
+        "description": "Address: 2202 W Waters Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "got-tea-tampa"
     }
   ]
 }

@@ -12,17 +12,19 @@ app.set('views', __dirname + '/html');
 var yelp = new Yelp(yelpConfig);
 
 app.get('/', function(req,res,next){
-    searchYelp({ term: 'pizza', location: '33617'}, function(data){
-        writeJSON(data);        
-    });
-    res.render('index');
+    searchYelp({ term: 'coffee', location: '33617'}, function(data){
+        var centerArr = data.center;
+        var mapData = data.geoJSON;
+        res.render('index', {"center":centerArr,"geojson":mapData});
+        writeJSON(data);       
+    });  
 });
 
 var searchYelp = function(params, callback){
     yelp.search(params, function(e,res){
         // console.log(res);
         if(e) return console.log(res);
-        var center = res.region.center;
+        var center = [res.region.center.latitude, res.region.center.longitude];
         var out = res.businesses.map(function(element){
             var coordObj = element.location.coordinate;
             var rating = Math.floor(element.rating);
@@ -34,8 +36,6 @@ var searchYelp = function(params, callback){
             
             //geoData object sent to html file
             obj = {
-                center: center,
-                geoJSON: {
                 type: "Feature",
                 geometry:{
                     type: "Point",
@@ -48,7 +48,6 @@ var searchYelp = function(params, callback){
                     "marker-size": "small"      
                 },
                 id:element.id
-                }
             };
             // send geoData object back to out var
             return obj;
