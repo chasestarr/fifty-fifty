@@ -35,7 +35,9 @@ var searchYelp = function(params, callback){
         //Map api response to simplified format
         var out = res.businesses.map(function(element){
             var coordObj = element.location.coordinate;
-            var descript = "Address: " + element.location.address[0] + "<br>Rating: " + starRating(element.rating);
+            var descript = "Address: " + element.location.address[0] + 
+                "<br>Rating: " + starRating(element.rating) + 
+                "<br><button type='button' class='hostButton'>Host table</button>";
             
             //geoData object sent to html file
             obj = {

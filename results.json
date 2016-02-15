@@ -1,7 +1,7 @@
 {
   "center": [
-    28.023920966862,
-    -82.40851104503196
+    38.599789349999995,
+    -121.45584905
   ],
   "geoJSON": [
     {
@@ -9,18 +9,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4000349,
-          28.0553173
+          -121.49509044531,
+          38.580258692403
         ]
       },
       "properties": {
-        "title": "Felicitous",
-        "description": "Address: 11706 N 51st St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Temple Coffee Roasters",
+        "description": "Address: 1010 9th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "felicitous-tampa",
+        "id": "temple-coffee-roasters-sacramento-3",
         "host": false
       }
     },
@@ -29,18 +29,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4060211181641,
-          28.032190322876
+          -121.500096,
+          38.5708399
         ]
       },
       "properties": {
-        "title": "Sacred Grounds",
-        "description": "Address: 4819 E Busch Blvd<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "Insight Coffee Roasters",
+        "description": "Address: 1901 8th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "sacred-grounds-tampa",
+        "id": "insight-coffee-roasters-sacramento",
         "host": false
       }
     },
@@ -49,18 +49,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4300842285156,
-          28.0553493499756
+          -121.504539489746,
+          38.5752410888672
         ]
       },
       "properties": {
-        "title": "Mojo Books Records Coffee & Tea",
-        "description": "Address: 2540 E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Chocolate Fish Coffee",
+        "description": "Address: 400 P St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "mojo-books-records-coffee-and-tea-tampa",
+        "id": "chocolate-fish-coffee-sacramento",
         "host": false
       }
     },
@@ -69,18 +69,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.443811,
-          28.069055
+          -121.4810015,
+          38.5782982
         ]
       },
       "properties": {
-        "title": "Kaleisia Tea Lounge",
-        "description": "Address: 1441 E Fletcher Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "The Mill",
+        "description": "Address: 1827 I St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "kaleisia-tea-lounge-tampa",
+        "id": "the-mill-sacramento-10",
         "host": false
       }
     },
@@ -89,18 +89,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.459154,
-          28.000023
+          -121.446174621582,
+          38.5619316101074
         ]
       },
       "properties": {
-        "title": "Jet City Espresso",
-        "description": "Address: 5803 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Chocolate Fish Coffee Roasters",
+        "description": "Address: 4749 Folsom Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "jet-city-espresso-tampa-2",
+        "id": "chocolate-fish-coffee-roasters-sacramento",
         "host": false
       }
     },
@@ -109,18 +109,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.3935113847256,
-          28.0463790893555
+          -121.4650076,
+          38.5751506
         ]
       },
       "properties": {
-        "title": "Al-Aqsa Coffee House",
-        "description": "Address: 10819 N 56th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Tiferet Coffee House",
+        "description": "Address: 3020 H St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "al-aqsa-coffee-house-tampa",
+        "id": "tiferet-coffee-house-sacramento-2",
         "host": false
       }
     },
@@ -129,18 +129,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4003067016602,
-          28.0548534393311
+          -121.489837646484,
+          38.570369720459
         ]
       },
       "properties": {
-        "title": "Starbucks",
-        "description": "Address: 5006 E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "The Naked Lounge Coffee House",
+        "description": "Address: 1500 Q St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "starbucks-tampa-27",
+        "id": "the-naked-lounge-coffee-house-sacramento-2",
         "host": false
       }
     },
@@ -149,18 +149,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4035441875458,
-          28.087797933724
+          -121.472586616874,
+          38.5637015104294
         ]
       },
       "properties": {
-        "title": "You Do The Dishes",
-        "description": "Address: 15357 Amberly Dr<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "title": "Temple Coffee Roasters",
+        "description": "Address: 2829 S St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "you-do-the-dishes-tampa",
+        "id": "temple-coffee-roasters-sacramento-2",
         "host": false
       }
     },
@@ -169,18 +169,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4378128,
-          28.0688801
+          -121.484334711639,
+          38.5750449349562
         ]
       },
       "properties": {
-        "title": "Loving Hut",
-        "description": "Address: 1905 E Fletcher Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Old Soul Co",
+        "description": "Address: Rear Alley<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "loving-hut-tampa",
+        "id": "old-soul-co-sacramento-11",
         "host": false
       }
     },
@@ -189,18 +189,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4596634,
-          27.9919891
+          -121.43395,
+          38.5683655
         ]
       },
       "properties": {
-        "title": "The Independent",
-        "description": "Address: 5016 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Tupelo Coffee House and Roasting",
+        "description": "Address: 5700 Elvas Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-independent-tampa",
+        "id": "tupelo-coffee-house-and-roasting-sacramento",
         "host": false
       }
     },
@@ -209,18 +209,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4597015380859,
-          28.0068454742432
+          -121.51069,
+          38.6477099
         ]
       },
       "properties": {
-        "title": "The Blind Tiger Cafe",
-        "description": "Address: 6500 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Maestro Coffeehouse",
+        "description": "Address: 2069 Arena Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-blind-tiger-cafe-tampa-8",
+        "id": "maestro-coffeehouse-sacramento",
         "host": false
       }
     },
@@ -229,18 +229,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4124979598144,
-          28.0596543204794
+          -121.465179443359,
+          38.6036376953125
         ]
       },
       "properties": {
-        "title": "Starbucks",
-        "description": "Address: University of South Florida Library<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "Son Of A Bean Coffee House",
+        "description": "Address: 1029 Del Paso Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "starbucks-tampa-13",
+        "id": "son-of-a-bean-coffee-house-sacramento",
         "host": false
       }
     },
@@ -249,18 +249,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4123751,
-          28.0834726
+          -121.488021850586,
+          38.5709342956543
         ]
       },
       "properties": {
-        "title": "Twist Vapor Cafe",
-        "description": "Address: 14937 Bruce B Downs Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "title": "Insight Coffee Roasters",
+        "description": "Address: 1615 16th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "twist-vapor-cafe-tampa",
+        "id": "insight-coffee-roasters-sacramento-8",
         "host": false
       }
     },
@@ -269,18 +269,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.428614795208,
-          28.057012706995
+          -121.4768982,
+          38.5742607
         ]
       },
       "properties": {
-        "title": "The Boba House",
-        "description": "Address: 2764 University Sq Dr<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "The Trade Coffee & Coworking",
+        "description": "Address: 2220 K St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-boba-house-tampa-2",
+        "id": "the-trade-coffee-and-coworking-sacramento",
         "host": false
       }
     },
@@ -289,18 +289,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4549407958984,
-          27.9965362548828
+          -121.47619,
+          38.55184
         ]
       },
       "properties": {
-        "title": "Starbucks",
-        "description": "Address: 502 E Hillsborough Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Coffee Garden",
+        "description": "Address: 2904 Franklin Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "starbucks-tampa-21",
+        "id": "coffee-garden-sacramento",
         "host": false
       }
     },
@@ -309,18 +309,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4378051757812,
-          27.9600448608398
+          -121.478019775463,
+          38.5781083853294
         ]
       },
       "properties": {
-        "title": "The Blind Tiger Cafe - Ybor City",
-        "description": "Address: 1901 E 7th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Old Soul at The Weatherstone",
+        "description": "Address: 812 21st St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-blind-tiger-cafe-ybor-city-tampa-5",
+        "id": "old-soul-at-the-weatherstone-sacramento-3",
         "host": false
       }
     },
@@ -329,18 +329,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4378099829458,
-          27.9613126032645
+          -121.41004444308,
+          38.5751047675337
         ]
       },
       "properties": {
-        "title": "The Bunker",
-        "description": "Address: 1907 N 19th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Insight Coffee Roasters",
+        "description": "Address: 566 Pavilions Ln<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-bunker-tampa-3",
+        "id": "insight-coffee-roasters-sacramento-4",
         "host": false
       }
     },
@@ -349,18 +349,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.3573160900639,
-          28.0699706521788
+          -121.401062,
+          38.5739517
         ]
       },
       "properties": {
-        "title": "Patriot Brew Cafe",
-        "description": "Address: James A. Haley Veterans' Hospital<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "title": "Temple Coffee Roasters",
+        "description": "Address: 2600 Fair Oaks Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "patriot-brew-cafe-tampa",
+        "id": "temple-coffee-roasters-sacramento",
         "host": false
       }
     },
@@ -369,18 +369,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4362139,
-          27.9603949
+          -121.493949,
+          38.579882
         ]
       },
       "properties": {
-        "title": "Naviera Coffee Mills",
-        "description": "Address: 2012 E 7th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Insight Coffee Roasters",
+        "description": "Address: 1014 10th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "naviera-coffee-mills-tampa",
+        "id": "insight-coffee-roasters-sacramento-3",
         "host": false
       }
     },
@@ -389,18 +389,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4555892944336,
-          28.0032176971436
+          -121.471439542246,
+          38.5546261675768
         ]
       },
       "properties": {
-        "title": "Mikey's Cafe & Bakery Co.",
-        "description": "Address: 6114 N Central Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Broadway Coffee",
+        "description": "Address: 3200 Broadway<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "mikeys-cafe-and-bakery-co-tampa",
+        "id": "broadway-coffee-sacramento",
         "host": false
       }
     }
