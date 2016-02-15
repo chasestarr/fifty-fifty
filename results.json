@@ -1,7 +1,7 @@
 {
   "center": [
     28.023920966862,
-    -82.43762865
+    -82.40851104503196
   ],
   "geoJSON": [
     {
@@ -230,23 +230,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4549407958984,
-          27.9965362548828
-        ]
-      },
-      "properties": {
-        "title": "Starbucks",
-        "description": "Address: 502 E Hillsborough Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-        "marker-color": "#fc4353",
-        "marker-size": "small"
-      },
-      "id": "starbucks-tampa-21"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -82.428614795208,
           28.057012706995
         ]
@@ -258,6 +241,23 @@
         "marker-size": "small"
       },
       "id": "the-boba-house-tampa-2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4549407958984,
+          27.9965362548828
+        ]
+      },
+      "properties": {
+        "title": "Starbucks",
+        "description": "Address: 502 E Hillsborough Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "starbucks-tampa-21"
     },
     {
       "type": "Feature",
@@ -298,6 +298,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -82.3573160900639,
+          28.0699706521788
+        ]
+      },
+      "properties": {
+        "title": "Patriot Brew Cafe",
+        "description": "Address: James A. Haley Veterans' Hospital<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "id": "patriot-brew-cafe-tampa"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -82.4362139,
           27.9603949
         ]
@@ -326,23 +343,6 @@
         "marker-size": "small"
       },
       "id": "mikeys-cafe-and-bakery-co-tampa"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.4817123413086,
-          28.0250263214111
-        ]
-      },
-      "properties": {
-        "title": "Got Tea",
-        "description": "Address: 2202 W Waters Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
-        "marker-color": "#fc4353",
-        "marker-size": "small"
-      },
-      "id": "got-tea-tampa"
     }
   ]
 }
