@@ -35,12 +35,7 @@ var searchYelp = function(params, callback){
         //Map api response to simplified format
         var out = res.businesses.map(function(element){
             var coordObj = element.location.coordinate;
-            var rating = Math.floor(element.rating);
-            var stars = "";
-            for(var i = 0; i < rating; i++){
-                stars = stars + "&#9733;";
-            }
-            var descript = "Address: " + element.location.address[0] + "<br>Rating: " + stars;
+            var descript = "Address: " + element.location.address[0] + "<br>Rating: " + starRating(element.rating);
             
             //geoData object sent to html file
             obj = {
@@ -83,3 +78,12 @@ var writeJSON = function(json){
         console.log("JSON file was saved");
     });
 };
+
+var starRating = function(num){
+    var stars = "";
+    flatRating = Math.floor(num);
+    for(var i = 0; i < flatRating; i++){
+        stars = stars + "&#9733;";
+    }
+    return stars;
+}
