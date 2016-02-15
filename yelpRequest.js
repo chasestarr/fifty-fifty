@@ -37,7 +37,7 @@ var searchYelp = function(params, callback){
             var coordObj = element.location.coordinate;
             var descript = "Address: " + element.location.address[0] + 
                 "<br>Rating: " + starRating(element.rating) + 
-                "<br><button type='button' class='hostButton'>Host table</button>";
+                "<br><button type='button' class='hostButton' id ='" + element.id + "'>Host table</button>";
             
             //geoData object sent to html file
             obj = {

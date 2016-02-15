@@ -1,7 +1,7 @@
 {
   "center": [
-    38.599789349999995,
-    -121.45584905
+    40.6781134737532,
+    -73.9705393090135
   ],
   "geoJSON": [
     {
@@ -9,18 +9,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.49509044531,
-          38.580258692403
+          -74.0259379148483,
+          40.6354921703071
         ]
       },
       "properties": {
-        "title": "Temple Coffee Roasters",
-        "description": "Address: 1010 9th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Coffee Rx",
+        "description": "Address: 6903 3rd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='coffee-rx-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "temple-coffee-roasters-sacramento-3",
+        "id": "coffee-rx-brooklyn",
         "host": false
       }
     },
@@ -29,18 +29,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.500096,
-          38.5708399
+          -73.9503787374344,
+          40.7075228032172
         ]
       },
       "properties": {
-        "title": "Insight Coffee Roasters",
-        "description": "Address: 1901 8th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Mountain Province",
+        "description": "Address: 9 Meserole St<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='mountain-province-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "insight-coffee-roasters-sacramento",
+        "id": "mountain-province-brooklyn",
         "host": false
       }
     },
@@ -49,18 +49,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.504539489746,
-          38.5752410888672
+          -73.9861984,
+          40.7042007
         ]
       },
       "properties": {
-        "title": "Chocolate Fish Coffee",
-        "description": "Address: 400 P St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Brooklyn Roasting Company",
+        "description": "Address: 25 Jay St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='brooklyn-roasting-company-brooklyn-2'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "chocolate-fish-coffee-sacramento",
+        "id": "brooklyn-roasting-company-brooklyn-2",
         "host": false
       }
     },
@@ -69,18 +69,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.4810015,
-          38.5782982
+          -73.9533801189785,
+          40.6598596691337
         ]
       },
       "properties": {
-        "title": "The Mill",
-        "description": "Address: 1827 I St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Gratitude Cafe",
+        "description": "Address: 499 Rogers Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='gratitude-cafe-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-mill-sacramento-10",
+        "id": "gratitude-cafe-brooklyn",
         "host": false
       }
     },
@@ -89,18 +89,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.446174621582,
-          38.5619316101074
+          -73.913898691535,
+          40.6849184632301
         ]
       },
       "properties": {
-        "title": "Chocolate Fish Coffee Roasters",
-        "description": "Address: 4749 Folsom Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Covert Coffee",
+        "description": "Address: 1643 Broadway<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='covert-coffee-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "chocolate-fish-coffee-roasters-sacramento",
+        "id": "covert-coffee-brooklyn",
         "host": false
       }
     },
@@ -109,18 +109,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.4650076,
-          38.5751506
+          -73.9902541413903,
+          40.6611330590684
         ]
       },
       "properties": {
-        "title": "Tiferet Coffee House",
-        "description": "Address: 3020 H St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Southside Coffee",
+        "description": "Address: 652 6th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='southside-coffee-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "tiferet-coffee-house-sacramento-2",
+        "id": "southside-coffee-brooklyn",
         "host": false
       }
     },
@@ -129,18 +129,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.489837646484,
-          38.570369720459
+          -73.9617848396301,
+          40.7142079238412
         ]
       },
       "properties": {
-        "title": "The Naked Lounge Coffee House",
-        "description": "Address: 1500 Q St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Black Brick",
+        "description": "Address: 300 Bedford Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='black-brick-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-naked-lounge-coffee-house-sacramento-2",
+        "id": "black-brick-brooklyn",
         "host": false
       }
     },
@@ -149,18 +149,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.472586616874,
-          38.5637015104294
+          -74.027188518027,
+          40.6331229475064
         ]
       },
       "properties": {
-        "title": "Temple Coffee Roasters",
-        "description": "Address: 2829 S St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Cream Coffee Shop",
+        "description": "Address: 7210 3rd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='cream-coffee-shop-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "temple-coffee-roasters-sacramento-2",
+        "id": "cream-coffee-shop-brooklyn",
         "host": false
       }
     },
@@ -169,18 +169,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.484334711639,
-          38.5750449349562
+          -74.0044555664062,
+          40.6835021972656
         ]
       },
       "properties": {
-        "title": "Old Soul Co",
-        "description": "Address: Rear Alley<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Kings Coffee Roasters",
+        "description": "Address: 37 Carroll St<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='kings-coffee-roasters-brooklyn-2'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "old-soul-co-sacramento-11",
+        "id": "kings-coffee-roasters-brooklyn-2",
         "host": false
       }
     },
@@ -189,18 +189,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.43395,
-          38.5683655
+          -73.9633539,
+          40.6419312
         ]
       },
       "properties": {
-        "title": "Tupelo Coffee House and Roasting",
-        "description": "Address: 5700 Elvas Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Cafe Madeline",
+        "description": "Address: 1603 Cortelyou Rd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='cafe-madeline-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "tupelo-coffee-house-and-roasting-sacramento",
+        "id": "cafe-madeline-brooklyn",
         "host": false
       }
     },
@@ -209,18 +209,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.51069,
-          38.6477099
+          -73.9457778930664,
+          40.7231216430664
         ]
       },
       "properties": {
-        "title": "Maestro Coffeehouse",
-        "description": "Address: 2069 Arena Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Crema BK",
+        "description": "Address: 182 Driggs Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='crema-bk-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "maestro-coffeehouse-sacramento",
+        "id": "crema-bk-brooklyn",
         "host": false
       }
     },
@@ -229,18 +229,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.465179443359,
-          38.6036376953125
+          -73.9191742,
+          40.7062263
         ]
       },
       "properties": {
-        "title": "Son Of A Bean Coffee House",
-        "description": "Address: 1029 Del Paso Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Strangeways Coffee",
+        "description": "Address: 87 St Nicholas Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='strangeways-coffee-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "son-of-a-bean-coffee-house-sacramento",
+        "id": "strangeways-coffee-brooklyn",
         "host": false
       }
     },
@@ -249,18 +249,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.488021850586,
-          38.5709342956543
+          -73.963713,
+          40.676044
         ]
       },
       "properties": {
-        "title": "Insight Coffee Roasters",
-        "description": "Address: 1615 16th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Penny House Cafe",
+        "description": "Address: 732 Washington Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='penny-house-cafe-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "insight-coffee-roasters-sacramento-8",
+        "id": "penny-house-cafe-brooklyn",
         "host": false
       }
     },
@@ -269,18 +269,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.4768982,
-          38.5742607
+          -73.9711276441813,
+          40.6916561722755
         ]
       },
       "properties": {
-        "title": "The Trade Coffee & Coworking",
-        "description": "Address: 2220 K St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "WTF Coffee Lab",
+        "description": "Address: 47 Willoughby Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='wtf-coffee-lab-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-trade-coffee-and-coworking-sacramento",
+        "id": "wtf-coffee-lab-brooklyn",
         "host": false
       }
     },
@@ -289,18 +289,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.47619,
-          38.55184
+          -73.960623,
+          40.717416
         ]
       },
       "properties": {
-        "title": "Coffee Garden",
-        "description": "Address: 2904 Franklin Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Blue Bottle Coffee",
+        "description": "Address: 160 Berry St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='blue-bottle-coffee-brooklyn-2'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "coffee-garden-sacramento",
+        "id": "blue-bottle-coffee-brooklyn-2",
         "host": false
       }
     },
@@ -309,18 +309,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.478019775463,
-          38.5781083853294
+          -73.965905,
+          40.7136054
         ]
       },
       "properties": {
-        "title": "Old Soul at The Weatherstone",
-        "description": "Address: 812 21st St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "FREEHOLD",
+        "description": "Address: 45 S 3rd St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='freehold-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "old-soul-at-the-weatherstone-sacramento-3",
+        "id": "freehold-brooklyn",
         "host": false
       }
     },
@@ -329,18 +329,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.41004444308,
-          38.5751047675337
+          -73.9322331191101,
+          40.6838183160629
         ]
       },
       "properties": {
-        "title": "Insight Coffee Roasters",
-        "description": "Address: 566 Pavilions Ln<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Georges-André Vintage Café",
+        "description": "Address: 558 Halsey St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='georges-andré-vintage-café-brooklyn-2'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "insight-coffee-roasters-sacramento-4",
+        "id": "georges-andré-vintage-café-brooklyn-2",
         "host": false
       }
     },
@@ -349,18 +349,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.401062,
-          38.5739517
+          -73.9411785,
+          40.6842654
         ]
       },
       "properties": {
-        "title": "Temple Coffee Roasters",
-        "description": "Address: 2600 Fair Oaks Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Anchor Coffee and Corp",
+        "description": "Address: 525A Throop Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='anchor-coffee-and-corp-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "temple-coffee-roasters-sacramento",
+        "id": "anchor-coffee-and-corp-brooklyn",
         "host": false
       }
     },
@@ -369,18 +369,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.493949,
-          38.579882
+          -73.9502091,
+          40.6728416
         ]
       },
       "properties": {
-        "title": "Insight Coffee Roasters",
-        "description": "Address: 1014 10th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "Tinto",
+        "description": "Address: 715 Nostrand Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='tinto-brooklyn'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "insight-coffee-roasters-sacramento-3",
+        "id": "tinto-brooklyn",
         "host": false
       }
     },
@@ -389,18 +389,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.471439542246,
-          38.5546261675768
+          -73.945854,
+          40.694637
         ]
       },
       "properties": {
-        "title": "Broadway Coffee",
-        "description": "Address: 3200 Broadway<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton'>Host table</button>",
+        "title": "ReConnect Cafe",
+        "description": "Address: 139 Tompkins Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='reconnect-cafe-brooklyn-2'>Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "broadway-coffee-sacramento",
+        "id": "reconnect-cafe-brooklyn-2",
         "host": false
       }
     }
