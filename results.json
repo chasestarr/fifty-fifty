@@ -1,7 +1,7 @@
 {
   "center": [
-    40.6781134737532,
-    -73.9705393090135
+    25.75804484452805,
+    -80.280394766491
   ],
   "geoJSON": [
     {
@@ -9,18 +9,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0259379148483,
-          40.6354921703071
+          -80.199242,
+          25.799925
         ]
       },
       "properties": {
-        "title": "Coffee Rx",
-        "description": "Address: 6903 3rd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='coffee-rx-brooklyn'>Host table</button>",
+        "title": "Panther Coffee",
+        "description": "Address: 2390 NW 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"panther-coffee-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "coffee-rx-brooklyn",
+        "id": "panther-coffee-miami",
         "host": false
       }
     },
@@ -29,18 +29,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9503787374344,
-          40.7075228032172
+          -80.1901558041573,
+          25.7732035964727
         ]
       },
       "properties": {
-        "title": "Mountain Province",
-        "description": "Address: 9 Meserole St<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='mountain-province-brooklyn'>Host table</button>",
+        "title": "Eternity Coffee Roasters",
+        "description": "Address: 117 SE 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"eternity-coffee-roasters-miami-2\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "mountain-province-brooklyn",
+        "id": "eternity-coffee-roasters-miami-2",
         "host": false
       }
     },
@@ -49,18 +49,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9861984,
-          40.7042007
+          -80.1907848,
+          25.7742725
         ]
       },
       "properties": {
-        "title": "Brooklyn Roasting Company",
-        "description": "Address: 25 Jay St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='brooklyn-roasting-company-brooklyn-2'>Host table</button>",
+        "title": "Havana Coffee and Tea Company",
+        "description": "Address: 155 E Flagler St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"havana-coffee-and-tea-company-miami-2\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "brooklyn-roasting-company-brooklyn-2",
+        "id": "havana-coffee-and-tea-company-miami-2",
         "host": false
       }
     },
@@ -69,18 +69,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9533801189785,
-          40.6598596691337
+          -80.1950170594003,
+          25.8139916142152
         ]
       },
       "properties": {
-        "title": "Gratitude Cafe",
-        "description": "Address: 499 Rogers Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='gratitude-cafe-brooklyn'>Host table</button>",
+        "title": "B Sweet Coffee Shop",
+        "description": "Address: 20 NE 41 St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"b-sweet-coffee-shop-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "gratitude-cafe-brooklyn",
+        "id": "b-sweet-coffee-shop-miami",
         "host": false
       }
     },
@@ -89,18 +89,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.913898691535,
-          40.6849184632301
+          -80.2422791,
+          25.72785
         ]
       },
       "properties": {
-        "title": "Covert Coffee",
-        "description": "Address: 1643 Broadway<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='covert-coffee-brooklyn'>Host table</button>",
+        "title": "Panther Coffee",
+        "description": "Address: 3407 Main Hhwy<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"panther-coffee-miami-2\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "covert-coffee-brooklyn",
+        "id": "panther-coffee-miami-2",
         "host": false
       }
     },
@@ -109,18 +109,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9902541413903,
-          40.6611330590684
+          -80.1928363958569,
+          25.807551126443
         ]
       },
       "properties": {
-        "title": "Southside Coffee",
-        "description": "Address: 652 6th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='southside-coffee-brooklyn'>Host table</button>",
+        "title": "Pasión Del Cielo Coffee",
+        "description": "Address: 100 Midtown Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"pasión-del-cielo-coffee-miami-2\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "southside-coffee-brooklyn",
+        "id": "pasión-del-cielo-coffee-miami-2",
         "host": false
       }
     },
@@ -129,18 +129,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9617848396301,
-          40.7142079238412
+          -80.19194,
+          25.809357
         ]
       },
       "properties": {
-        "title": "Black Brick",
-        "description": "Address: 300 Bedford Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='black-brick-brooklyn'>Host table</button>",
+        "title": "Angelina's Coffee & Juice",
+        "description": "Address: 3451 NE 1st Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"angelinas-coffee-and-juice-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "black-brick-brooklyn",
+        "id": "angelinas-coffee-and-juice-miami",
         "host": false
       }
     },
@@ -149,18 +149,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.027188518027,
-          40.6331229475064
+          -80.2028159,
+          25.8020194
         ]
       },
       "properties": {
-        "title": "Cream Coffee Shop",
-        "description": "Address: 7210 3rd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='cream-coffee-shop-brooklyn'>Host table</button>",
+        "title": "Wynwood Cafe",
+        "description": "Address: 450 NW 27th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"wynwood-cafe-miami-2\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "cream-coffee-shop-brooklyn",
+        "id": "wynwood-cafe-miami-2",
         "host": false
       }
     },
@@ -169,18 +169,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0044555664062,
-          40.6835021972656
+          -80.191673,
+          25.813117
         ]
       },
       "properties": {
-        "title": "Kings Coffee Roasters",
-        "description": "Address: 37 Carroll St<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='kings-coffee-roasters-brooklyn-2'>Host table</button>",
+        "title": "Crumb on Parchment",
+        "description": "Address: 3930 NE 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"crumb-on-parchment-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "kings-coffee-roasters-brooklyn-2",
+        "id": "crumb-on-parchment-miami",
         "host": false
       }
     },
@@ -189,18 +189,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9633539,
-          40.6419312
+          -80.207481,
+          25.771551
         ]
       },
       "properties": {
-        "title": "Cafe Madeline",
-        "description": "Address: 1603 Cortelyou Rd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='cafe-madeline-brooklyn'>Host table</button>",
+        "title": "El Gallito Coffee Shop",
+        "description": "Address: 205 SW 8th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"el-gallito-coffee-shop-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "cafe-madeline-brooklyn",
+        "id": "el-gallito-coffee-shop-miami",
         "host": false
       }
     },
@@ -209,18 +209,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9457778930664,
-          40.7231216430664
+          -80.372508532982,
+          25.6711786890561
         ]
       },
       "properties": {
-        "title": "Crema BK",
-        "description": "Address: 182 Driggs Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='crema-bk-brooklyn'>Host table</button>",
+        "title": "Grind Coffee Project",
+        "description": "Address: 10519 SW 109th Ct<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"grind-coffee-project-miami-15\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "crema-bk-brooklyn",
+        "id": "grind-coffee-project-miami-15",
         "host": false
       }
     },
@@ -229,18 +229,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9191742,
-          40.7062263
+          -80.188278,
+          25.844911
         ]
       },
       "properties": {
-        "title": "Strangeways Coffee",
-        "description": "Address: 87 St Nicholas Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='strangeways-coffee-brooklyn'>Host table</button>",
+        "title": "Limited Edition Caffé & Vino Buono",
+        "description": "Address: 7580 NE 4th Ct<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"limited-edition-caffé-and-vino-buono-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "strangeways-coffee-brooklyn",
+        "id": "limited-edition-caffé-and-vino-buono-miami",
         "host": false
       }
     },
@@ -249,18 +249,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.963713,
-          40.676044
+          -80.198745,
+          25.801826
         ]
       },
       "properties": {
-        "title": "Penny House Cafe",
-        "description": "Address: 732 Washington Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='penny-house-cafe-brooklyn'>Host table</button>",
+        "title": "Mister Block Cafe",
+        "description": "Address: 2621 Nw 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"mister-block-cafe-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "penny-house-cafe-brooklyn",
+        "id": "mister-block-cafe-miami",
         "host": false
       }
     },
@@ -269,18 +269,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9711276441813,
-          40.6916561722755
+          -80.25787,
+          25.76442
         ]
       },
       "properties": {
-        "title": "WTF Coffee Lab",
-        "description": "Address: 47 Willoughby Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='wtf-coffee-lab-brooklyn'>Host table</button>",
+        "title": "CraveClean Protein Bake Shop",
+        "description": "Address: 3822 SW 8 St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"craveclean-protein-bake-shop-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "wtf-coffee-lab-brooklyn",
+        "id": "craveclean-protein-bake-shop-miami",
         "host": false
       }
     },
@@ -289,18 +289,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.960623,
-          40.717416
+          -80.1917648,
+          25.8261471
         ]
       },
       "properties": {
-        "title": "Blue Bottle Coffee",
-        "description": "Address: 160 Berry St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='blue-bottle-coffee-brooklyn-2'>Host table</button>",
+        "title": "Sweat Records",
+        "description": "Address: 5505 NE 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"sweat-records-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "blue-bottle-coffee-brooklyn-2",
+        "id": "sweat-records-miami",
         "host": false
       }
     },
@@ -309,18 +309,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.965905,
-          40.7136054
+          -80.189522,
+          25.768744
         ]
       },
       "properties": {
-        "title": "FREEHOLD",
-        "description": "Address: 45 S 3rd St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='freehold-brooklyn'>Host table</button>",
+        "title": "Café Icon",
+        "description": "Address: 485 Brickell Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"café-icon-miami-4\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "freehold-brooklyn",
+        "id": "café-icon-miami-4",
         "host": false
       }
     },
@@ -329,18 +329,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9322331191101,
-          40.6838183160629
+          -80.2422603872958,
+          25.7285815905272
         ]
       },
       "properties": {
-        "title": "Georges-André Vintage Café",
-        "description": "Address: 558 Halsey St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='georges-andré-vintage-café-brooklyn-2'>Host table</button>",
+        "title": "Le Macaron",
+        "description": "Address: 3015 Grand Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"le-macaron-miami-2\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "georges-andré-vintage-café-brooklyn-2",
+        "id": "le-macaron-miami-2",
         "host": false
       }
     },
@@ -349,18 +349,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9411785,
-          40.6842654
+          -80.2396472079233,
+          25.7289161729766
         ]
       },
       "properties": {
-        "title": "Anchor Coffee and Corp",
-        "description": "Address: 525A Throop Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='anchor-coffee-and-corp-brooklyn'>Host table</button>",
+        "title": "The Bookstore In the Grove",
+        "description": "Address: 3390 Mary St<br>Rating: &#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"the-bookstore-in-the-grove-miami-2\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "anchor-coffee-and-corp-brooklyn",
+        "id": "the-bookstore-in-the-grove-miami-2",
         "host": false
       }
     },
@@ -369,18 +369,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9502091,
-          40.6728416
+          -80.201751,
+          25.802452
         ]
       },
       "properties": {
-        "title": "Tinto",
-        "description": "Address: 715 Nostrand Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='tinto-brooklyn'>Host table</button>",
+        "title": "Miam Café & Boutique",
+        "description": "Address: 2750 NW 3rd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"miam-café-and-boutique-miami-8\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "tinto-brooklyn",
+        "id": "miam-café-and-boutique-miami-8",
         "host": false
       }
     },
@@ -389,18 +389,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.945854,
-          40.694637
+          -80.3100767,
+          25.7785346
         ]
       },
       "properties": {
-        "title": "ReConnect Cafe",
-        "description": "Address: 139 Tompkins Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button type='button' class='hostButton' id ='reconnect-cafe-brooklyn-2'>Host table</button>",
+        "title": "Caffe Lingo",
+        "description": "Address: 777 NW 72nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"caffe-lingo-miami\">Host table</button>",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "reconnect-cafe-brooklyn-2",
+        "id": "caffe-lingo-miami",
         "host": false
       }
     }

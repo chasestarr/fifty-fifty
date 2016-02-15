@@ -29,7 +29,7 @@ app.get('/', function(req,res,next){
 
 var searchYelp = function(params, callback){
     yelp.search(params, function(e,res){
-        // console.log(res);
+        console.log(res);
         if(e) return console.log(res);
         var center = [res.region.center.latitude, res.region.center.longitude];
         //Map api response to simplified format
@@ -37,7 +37,7 @@ var searchYelp = function(params, callback){
             var coordObj = element.location.coordinate;
             var descript = "Address: " + element.location.address[0] + 
                 "<br>Rating: " + starRating(element.rating) + 
-                "<br><button type='button' class='hostButton' id ='" + element.id + "'>Host table</button>";
+                '<br><button onclick="hostTable();" type="button" class="hostButton" id ="' + element.id + '">Host table</button>';
             
             //geoData object sent to html file
             obj = {
@@ -70,7 +70,7 @@ var searchYelp = function(params, callback){
 };
 
 app.listen(3000, function(){
-   console.log("sever running at port:", this.address().port); 
+   console.log("server running at port:", this.address().port); 
 });
 
 //write json out to file for analyzing output
