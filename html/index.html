@@ -72,7 +72,9 @@
     <div id='sidebar'>
         <h1 id='title'>Fifty<br>-Fifty</h1>
     </div>
-    <input id='search' class='search-ui' placeholder='Enter location' />
+    <form>
+    <input id='search' class='search-ui' placeholder='Enter location' name="loc" />
+    </form>
     <script>
         L.mapbox.accessToken = 'pk.eyJ1IjoiY2hhc2VzdGFyciIsImEiOiJjaWtjczAydzkwbTFydjBrcGFmcmV6a3p4In0.7N_qPo1tQlE943MlZyFkfw';
         L.mapbox.map('map', 'mapbox.light').setView({{center|json|raw}}, 12)

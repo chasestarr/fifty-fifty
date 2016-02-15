@@ -12,12 +12,19 @@ app.set('views', __dirname + '/html');
 var yelp = new Yelp(yelpConfig);
 
 app.get('/', function(req,res,next){
-    searchYelp({ term: 'coffee', location: '33617'}, function(data){
+    var loc = req.query.loc;
+    var params = {};
+    if(loc === undefined || loc === null){
+        params = {term: 'coffee', location: 'san+francisco'};
+    } else {
+        params = {term: 'coffee', location: loc};
+    }
+    searchYelp(params, function(data){
         var centerArr = data.center;
         var mapData = data.geoJSON;
         res.render('index', {"center":centerArr,"geojson":mapData});
         writeJSON(data);       
-    });  
+    });
 });
 
 var searchYelp = function(params, callback){
@@ -25,6 +32,7 @@ var searchYelp = function(params, callback){
         // console.log(res);
         if(e) return console.log(res);
         var center = [res.region.center.latitude, res.region.center.longitude];
+        //Map api response to simplified format
         var out = res.businesses.map(function(element){
             var coordObj = element.location.coordinate;
             var rating = Math.floor(element.rating);
@@ -47,7 +55,10 @@ var searchYelp = function(params, callback){
                     "marker-color": "#fc4353",
                     "marker-size": "small"      
                 },
-                id:element.id
+                db:{
+                    id:element.id,
+                    host:false
+                }
             };
             // send geoData object back to out var
             return obj;

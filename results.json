@@ -1,7 +1,7 @@
 {
   "center": [
-    28.023920966862,
-    -82.40851104503196
+    37.77389475,
+    -122.423020468041
   ],
   "geoJSON": [
     {
@@ -9,340 +9,400 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4000349,
-          28.0553173
+          -122.407697,
+          37.782352
         ]
       },
       "properties": {
-        "title": "Felicitous",
-        "description": "Address: 11706 N 51st St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Blue Bottle Coffee Co",
+        "description": "Address: 66 Mint St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "felicitous-tampa"
+      "db": {
+        "id": "blue-bottle-coffee-co-san-francisco-7",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4060211181641,
-          28.032190322876
+          -122.439849853516,
+          37.7996597290039
         ]
       },
       "properties": {
-        "title": "Sacred Grounds",
-        "description": "Address: 4819 E Busch Blvd<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "Bereka Coffee",
+        "description": "Address: 2320 Lombard St<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "sacred-grounds-tampa"
+      "db": {
+        "id": "bereka-coffee-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4300842285156,
-          28.0553493499756
+          -122.395782843232,
+          37.7803342044353
         ]
       },
       "properties": {
-        "title": "Mojo Books Records Coffee & Tea",
-        "description": "Address: 2540 E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "STEEP",
+        "description": "Address: 240 Ritch St<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "mojo-books-records-coffee-and-tea-tampa"
+      "db": {
+        "id": "steep-san-francisco-2",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.443811,
-          28.069055
+          -122.42184275,
+          37.7670169511878
         ]
       },
       "properties": {
-        "title": "Kaleisia Tea Lounge",
-        "description": "Address: 1441 E Fletcher Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Four Barrel Coffee",
+        "description": "Address: 375 Valencia St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "kaleisia-tea-lounge-tampa"
+      "db": {
+        "id": "four-barrel-coffee-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.459154,
-          28.000023
+          -122.4085083,
+          37.7769585
         ]
       },
       "properties": {
-        "title": "Jet City Espresso",
-        "description": "Address: 5803 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Sightglass Coffee",
+        "description": "Address: 270 7th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "jet-city-espresso-tampa-2"
+      "db": {
+        "id": "sightglass-coffee-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.3935113847256,
-          28.0463790893555
+          -122.423211,
+          37.77638
         ]
       },
       "properties": {
-        "title": "Al-Aqsa Coffee House",
-        "description": "Address: 10819 N 56th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Blue Bottle Coffee",
+        "description": "Address: 315 Linden St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "al-aqsa-coffee-house-tampa"
+      "db": {
+        "id": "blue-bottle-coffee-san-francisco-8",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4003067016602,
-          28.0548534393311
+          -122.420526,
+          37.782383
         ]
       },
       "properties": {
-        "title": "Starbucks",
-        "description": "Address: 5006 E Fowler Ave<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "Philz Coffee",
+        "description": "Address: 748 Van Ness Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "starbucks-tampa-27"
+      "db": {
+        "id": "philz-coffee-san-francisco-4",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4035441875458,
-          28.087797933724
+          -122.4187899,
+          37.7470855
         ]
       },
       "properties": {
-        "title": "You Do The Dishes",
-        "description": "Address: 15357 Amberly Dr<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "title": "CoffeeShop",
+        "description": "Address: 3139 Mission St<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "you-do-the-dishes-tampa"
+      "db": {
+        "id": "coffeeshop-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4378128,
-          28.0688801
+          -122.4409499,
+          37.7879217
         ]
       },
       "properties": {
-        "title": "Loving Hut",
-        "description": "Address: 1905 E Fletcher Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "b. Patisserie",
+        "description": "Address: 2821 California St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "loving-hut-tampa"
+      "db": {
+        "id": "b-patisserie-san-francisco-2",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4596634,
-          27.9919891
+          -122.4249268,
+          37.7773209
         ]
       },
       "properties": {
-        "title": "The Independent",
-        "description": "Address: 5016 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Artis Coffee",
+        "description": "Address: 537 Octavia St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "the-independent-tampa"
+      "db": {
+        "id": "artis-coffee-san-francisco-3",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4597015380859,
-          28.0068454742432
+          -122.4529495,
+          37.7814293
         ]
       },
       "properties": {
-        "title": "The Blind Tiger Cafe",
-        "description": "Address: 6500 N Florida Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Fifty / Fifty Coffee and Tea",
+        "description": "Address: 3157 Geary Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "the-blind-tiger-cafe-tampa-7"
+      "db": {
+        "id": "fifty-fifty-coffee-and-tea-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4124979598144,
-          28.0596543204794
+          -122.419327,
+          37.791405
         ]
       },
       "properties": {
-        "title": "Starbucks",
-        "description": "Address: University of South Florida Library<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "Contraband Coffee Bar",
+        "description": "Address: 1415 Larkin St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "starbucks-tampa-13"
+      "db": {
+        "id": "contraband-coffee-bar-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4123751,
-          28.0834726
+          -122.421371459961,
+          37.7564163208008
         ]
       },
       "properties": {
-        "title": "Twist Vapor Cafe",
-        "description": "Address: 14937 Bruce B Downs Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "title": "Ritual Coffee Roasters",
+        "description": "Address: 1026 Valencia St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "twist-vapor-cafe-tampa"
+      "db": {
+        "id": "ritual-coffee-roasters-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.428614795208,
-          28.057012706995
+          -122.393061536082,
+          37.7886764013327
         ]
       },
       "properties": {
-        "title": "The Boba House",
-        "description": "Address: 2764 University Sq Dr<br>Rating: &#9733;&#9733;&#9733;",
+        "title": "Philz Coffee",
+        "description": "Address: 300 Folsom St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "the-boba-house-tampa-2"
+      "db": {
+        "id": "philz-coffee-san-francisco-25",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4549407958984,
-          27.9965362548828
+          -122.436591312289,
+          37.7968548431401
         ]
       },
       "properties": {
-        "title": "Starbucks",
-        "description": "Address: 502 E Hillsborough Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Wrecking Ball Coffee Roasters",
+        "description": "Address: 2271 Union St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "starbucks-tampa-21"
+      "db": {
+        "id": "wrecking-ball-coffee-roasters-san-francisco-2",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4378051757812,
-          27.9600448608398
+          -122.4081685,
+          37.800704
         ]
       },
       "properties": {
-        "title": "The Blind Tiger Cafe - Ybor City",
-        "description": "Address: 1901 E 7th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Hole In The Wall Coffee",
+        "description": "Address: 524 Union St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "the-blind-tiger-cafe-ybor-city-tampa-5"
+      "db": {
+        "id": "hole-in-the-wall-coffee-san-francisco",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4378099829458,
-          27.9613126032645
+          -122.39338696954,
+          37.775558280936
         ]
       },
       "properties": {
-        "title": "The Bunker",
-        "description": "Address: 1907 N 19th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Philz Coffee",
+        "description": "Address: 201 Berry St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "the-bunker-tampa-3"
+      "db": {
+        "id": "philz-coffee-san-francisco-3",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.3573160900639,
-          28.0699706521788
+          -122.434422304778,
+          37.7610599441666
         ]
       },
       "properties": {
-        "title": "Patriot Brew Cafe",
-        "description": "Address: James A. Haley Veterans' Hospital<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;",
+        "title": "Réveille Coffee Co.",
+        "description": "Address: 4076 18th St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "patriot-brew-cafe-tampa"
+      "db": {
+        "id": "réveille-coffee-co-san-francisco-6",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4362139,
-          27.9603949
+          -122.393915990428,
+          37.796147602803
         ]
       },
       "properties": {
-        "title": "Naviera Coffee Mills",
-        "description": "Address: 2012 E 7th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Blue Bottle Coffee",
+        "description": "Address: 1 Ferry Bldg<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "naviera-coffee-mills-tampa"
+      "db": {
+        "id": "blue-bottle-coffee-san-francisco-10",
+        "host": false
+      }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4555892944336,
-          28.0032176971436
+          -122.402862548828,
+          37.7802696228027
         ]
       },
       "properties": {
-        "title": "Mikey's Cafe & Bakery Co.",
-        "description": "Address: 6114 N Central Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;",
+        "title": "Elite Audio Coffee Bar",
+        "description": "Address: 893A Folsom St<br>Rating: &#9733;&#9733;&#9733;&#9733;",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
-      "id": "mikeys-cafe-and-bakery-co-tampa"
+      "db": {
+        "id": "elite-audio-coffee-bar-san-francisco",
+        "host": false
+      }
     }
   ]
 }
