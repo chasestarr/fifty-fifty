@@ -13,6 +13,7 @@ var yelp = new Yelp(yelpConfig);
 
 app.get('/', function(req,res,next){
     var loc = req.query.loc;
+    console.log(req.query.id);
     var params = {};
     if(loc === undefined || loc === null){
         params = {term: 'coffee', location: 'san+francisco'};
