@@ -52,6 +52,7 @@
             border:0px solid #dbdbdb;
             z-index:1000;
             width: 20%;
+            color:#ffffff;
         }
         .hostButton {
             background-color:#fc4353;
@@ -100,7 +101,7 @@
         </p>
     </div>
     <form>
-    <input id='search' class='search-ui' placeholder='Enter location' name="loc" />
+    <input id='search' class='search-ui' placeholder='Enter city or zip code' name="loc" />
     </form>
     <script>
         L.mapbox.accessToken = 'pk.eyJ1IjoiY2hhc2VzdGFyciIsImEiOiJjaWtjczAydzkwbTFydjBrcGFmcmV6a3p4In0.7N_qPo1tQlE943MlZyFkfw';
@@ -119,9 +120,7 @@
         });
         myLayer.setGeoJSON({{geojson|json|raw}});
         
-        function hostTable(id){
-            // alert(id);
-        }
+        
     </script>
 </body>
 </html>

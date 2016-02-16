@@ -285,29 +285,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.419327,
-          37.791405
-        ]
-      },
-      "properties": {
-        "title": "Contraband Coffee Bar",
-        "url": "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-        "address": "1415 Larkin St",
-        "rating": "&#9734;&#9734;&#9734;&#9734;",
-        "id": "contraband-coffee-bar-san-francisco",
-        "marker-color": "#fc4353",
-        "marker-size": "small"
-      },
-      "db": {
-        "id": "contraband-coffee-bar-san-francisco",
-        "host": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.421371459961,
           37.7564163208008
         ]
@@ -323,6 +300,29 @@
       },
       "db": {
         "id": "ritual-coffee-roasters-san-francisco",
+        "host": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.419327,
+          37.791405
+        ]
+      },
+      "properties": {
+        "title": "Contraband Coffee Bar",
+        "url": "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "1415 Larkin St",
+        "rating": "&#9734;&#9734;&#9734;&#9734;",
+        "id": "contraband-coffee-bar-san-francisco",
+        "marker-color": "#fc4353",
+        "marker-size": "small"
+      },
+      "db": {
+        "id": "contraband-coffee-bar-san-francisco",
         "host": false
       }
     },

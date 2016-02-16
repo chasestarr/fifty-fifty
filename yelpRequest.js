@@ -13,19 +13,26 @@ var yelp = new Yelp(yelpConfig);
 
 app.get('/', function(req,res,next){
     var loc = req.query.loc;
-    console.log(req.query.id);
+    var id = req.query.id;
     var params = {};
     if(loc === undefined || loc === null){
         params = {term: 'coffee', location: 'san+francisco'};
     } else {
         params = {term: 'coffee', location: loc};
     }
+    //Search request
     searchYelp(params, function(data){
         var centerArr = data.center;
         var mapData = data.geoJSON;
         res.render('index', {"center":centerArr,"geojson":mapData});
-        writeJSON(data);       
+        writeJSON(data, "results.json");       
     });
+    
+    //Database update
+    if(id != undefined || id != null){
+        //Call function to add data to the database
+        updateDB(id);
+    }
 });
 
 var searchYelp = function(params, callback){
@@ -74,13 +81,14 @@ app.listen(3000, function(){
 });
 
 //write json out to file for analyzing output
-var writeJSON = function(json){
-    fs.writeFile("results.json", JSON.stringify(json, null, 2), function(e){
+var writeJSON = function(json, fileName){
+    fs.writeFile(fileName, JSON.stringify(json, null, 2), function(e){
         if(e) return console.log(e);
-        console.log("JSON file was saved");
+        console.log("'" + fileName + "' was saved");
     });
 };
 
+//convert number rating to unicode stars
 var starRating = function(num){
     var stars = "";
     var flatRating = Math.floor(num);
@@ -88,4 +96,9 @@ var starRating = function(num){
         stars = stars + "&#9734;";
     }
     return stars;
+}
+
+//update json file with id information
+var updateDB = function(id){
+    console.log(id);
 }
