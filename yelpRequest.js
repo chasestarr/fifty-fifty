@@ -29,7 +29,7 @@ app.get('/', function(req,res,next){
 
 var searchYelp = function(params, callback){
     yelp.search(params, function(e,res){
-        console.log(res);
+        // console.log(res);
         if(e) return console.log(res);
         var center = [res.region.center.latitude, res.region.center.longitude];
         //Map api response to simplified format
@@ -48,7 +48,10 @@ var searchYelp = function(params, callback){
                 },
                 properties:{
                     title: element.name,
-                    description: descript,
+                    url: element.url,
+                    address: element.location.address[0],
+                    rating: starRating(element.rating),
+                    id: element.id,
                     "marker-color": "#fc4353",
                     "marker-size": "small"      
                 },

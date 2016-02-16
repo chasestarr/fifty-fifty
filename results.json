@@ -1,7 +1,7 @@
 {
   "center": [
-    25.75804484452805,
-    -80.280394766491
+    37.77389475,
+    -122.423020468041
   ],
   "geoJSON": [
     {
@@ -9,18 +9,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.199242,
-          25.799925
+          -122.407697,
+          37.782352
         ]
       },
       "properties": {
-        "title": "Panther Coffee",
-        "description": "Address: 2390 NW 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"panther-coffee-miami\">Host table</button>",
+        "title": "Blue Bottle Coffee Co",
+        "url": "http://www.yelp.com/biz/blue-bottle-coffee-co-san-francisco-7?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "66 Mint St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "blue-bottle-coffee-co-san-francisco-7",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "panther-coffee-miami",
+        "id": "blue-bottle-coffee-co-san-francisco-7",
         "host": false
       }
     },
@@ -29,18 +32,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1901558041573,
-          25.7732035964727
+          -122.439849853516,
+          37.7996597290039
         ]
       },
       "properties": {
-        "title": "Eternity Coffee Roasters",
-        "description": "Address: 117 SE 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"eternity-coffee-roasters-miami-2\">Host table</button>",
+        "title": "Bereka Coffee",
+        "url": "http://www.yelp.com/biz/bereka-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "2320 Lombard St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+        "id": "bereka-coffee-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "eternity-coffee-roasters-miami-2",
+        "id": "bereka-coffee-san-francisco",
         "host": false
       }
     },
@@ -49,18 +55,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1907848,
-          25.7742725
+          -122.395782843232,
+          37.7803342044353
         ]
       },
       "properties": {
-        "title": "Havana Coffee and Tea Company",
-        "description": "Address: 155 E Flagler St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"havana-coffee-and-tea-company-miami-2\">Host table</button>",
+        "title": "STEEP",
+        "url": "http://www.yelp.com/biz/steep-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "240 Ritch St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+        "id": "steep-san-francisco-2",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "havana-coffee-and-tea-company-miami-2",
+        "id": "steep-san-francisco-2",
         "host": false
       }
     },
@@ -69,18 +78,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1950170594003,
-          25.8139916142152
+          -122.42184275,
+          37.7670169511878
         ]
       },
       "properties": {
-        "title": "B Sweet Coffee Shop",
-        "description": "Address: 20 NE 41 St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"b-sweet-coffee-shop-miami\">Host table</button>",
+        "title": "Four Barrel Coffee",
+        "url": "http://www.yelp.com/biz/four-barrel-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "375 Valencia St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "four-barrel-coffee-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "b-sweet-coffee-shop-miami",
+        "id": "four-barrel-coffee-san-francisco",
         "host": false
       }
     },
@@ -89,18 +101,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2422791,
-          25.72785
+          -122.4085083,
+          37.7769585
         ]
       },
       "properties": {
-        "title": "Panther Coffee",
-        "description": "Address: 3407 Main Hhwy<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"panther-coffee-miami-2\">Host table</button>",
+        "title": "Sightglass Coffee",
+        "url": "http://www.yelp.com/biz/sightglass-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "270 7th St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "sightglass-coffee-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "panther-coffee-miami-2",
+        "id": "sightglass-coffee-san-francisco",
         "host": false
       }
     },
@@ -109,18 +124,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1928363958569,
-          25.807551126443
+          -122.423211,
+          37.77638
         ]
       },
       "properties": {
-        "title": "Pasión Del Cielo Coffee",
-        "description": "Address: 100 Midtown Blvd<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"pasión-del-cielo-coffee-miami-2\">Host table</button>",
+        "title": "Blue Bottle Coffee",
+        "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-8?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "315 Linden St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "blue-bottle-coffee-san-francisco-8",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "pasión-del-cielo-coffee-miami-2",
+        "id": "blue-bottle-coffee-san-francisco-8",
         "host": false
       }
     },
@@ -129,18 +147,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.19194,
-          25.809357
+          -122.420526,
+          37.782383
         ]
       },
       "properties": {
-        "title": "Angelina's Coffee & Juice",
-        "description": "Address: 3451 NE 1st Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"angelinas-coffee-and-juice-miami\">Host table</button>",
+        "title": "Philz Coffee",
+        "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "748 Van Ness Ave",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "philz-coffee-san-francisco-4",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "angelinas-coffee-and-juice-miami",
+        "id": "philz-coffee-san-francisco-4",
         "host": false
       }
     },
@@ -149,18 +170,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2028159,
-          25.8020194
+          -122.4187899,
+          37.7470855
         ]
       },
       "properties": {
-        "title": "Wynwood Cafe",
-        "description": "Address: 450 NW 27th St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"wynwood-cafe-miami-2\">Host table</button>",
+        "title": "CoffeeShop",
+        "url": "http://www.yelp.com/biz/coffeeshop-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "3139 Mission St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+        "id": "coffeeshop-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "wynwood-cafe-miami-2",
+        "id": "coffeeshop-san-francisco",
         "host": false
       }
     },
@@ -169,18 +193,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.191673,
-          25.813117
+          -122.4409499,
+          37.7879217
         ]
       },
       "properties": {
-        "title": "Crumb on Parchment",
-        "description": "Address: 3930 NE 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"crumb-on-parchment-miami\">Host table</button>",
+        "title": "b. Patisserie",
+        "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "2821 California St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "b-patisserie-san-francisco-2",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "crumb-on-parchment-miami",
+        "id": "b-patisserie-san-francisco-2",
         "host": false
       }
     },
@@ -189,18 +216,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.207481,
-          25.771551
+          -122.4249268,
+          37.7773209
         ]
       },
       "properties": {
-        "title": "El Gallito Coffee Shop",
-        "description": "Address: 205 SW 8th Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"el-gallito-coffee-shop-miami\">Host table</button>",
+        "title": "Artis Coffee",
+        "url": "http://www.yelp.com/biz/artis-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "537 Octavia St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "artis-coffee-san-francisco-3",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "el-gallito-coffee-shop-miami",
+        "id": "artis-coffee-san-francisco-3",
         "host": false
       }
     },
@@ -209,18 +239,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.372508532982,
-          25.6711786890561
+          -122.4529495,
+          37.7814293
         ]
       },
       "properties": {
-        "title": "Grind Coffee Project",
-        "description": "Address: 10519 SW 109th Ct<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"grind-coffee-project-miami-15\">Host table</button>",
+        "title": "Fifty / Fifty Coffee and Tea",
+        "url": "http://www.yelp.com/biz/fifty-fifty-coffee-and-tea-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "3157 Geary Blvd",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "fifty-fifty-coffee-and-tea-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "grind-coffee-project-miami-15",
+        "id": "fifty-fifty-coffee-and-tea-san-francisco",
         "host": false
       }
     },
@@ -229,18 +262,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.188278,
-          25.844911
+          -122.419327,
+          37.791405
         ]
       },
       "properties": {
-        "title": "Limited Edition Caffé & Vino Buono",
-        "description": "Address: 7580 NE 4th Ct<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"limited-edition-caffé-and-vino-buono-miami\">Host table</button>",
+        "title": "Contraband Coffee Bar",
+        "url": "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "1415 Larkin St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "contraband-coffee-bar-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "limited-edition-caffé-and-vino-buono-miami",
+        "id": "contraband-coffee-bar-san-francisco",
         "host": false
       }
     },
@@ -249,18 +285,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.198745,
-          25.801826
+          -122.421371459961,
+          37.7564163208008
         ]
       },
       "properties": {
-        "title": "Mister Block Cafe",
-        "description": "Address: 2621 Nw 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"mister-block-cafe-miami\">Host table</button>",
+        "title": "Ritual Coffee Roasters",
+        "url": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "1026 Valencia St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "ritual-coffee-roasters-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "mister-block-cafe-miami",
+        "id": "ritual-coffee-roasters-san-francisco",
         "host": false
       }
     },
@@ -269,18 +308,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.25787,
-          25.76442
+          -122.393061536082,
+          37.7886764013327
         ]
       },
       "properties": {
-        "title": "CraveClean Protein Bake Shop",
-        "description": "Address: 3822 SW 8 St<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"craveclean-protein-bake-shop-miami\">Host table</button>",
+        "title": "Philz Coffee",
+        "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-25?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "300 Folsom St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "philz-coffee-san-francisco-25",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "craveclean-protein-bake-shop-miami",
+        "id": "philz-coffee-san-francisco-25",
         "host": false
       }
     },
@@ -289,18 +331,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1917648,
-          25.8261471
+          -122.436591312289,
+          37.7968548431401
         ]
       },
       "properties": {
-        "title": "Sweat Records",
-        "description": "Address: 5505 NE 2nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"sweat-records-miami\">Host table</button>",
+        "title": "Wrecking Ball Coffee Roasters",
+        "url": "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "2271 Union St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "wrecking-ball-coffee-roasters-san-francisco-2",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "sweat-records-miami",
+        "id": "wrecking-ball-coffee-roasters-san-francisco-2",
         "host": false
       }
     },
@@ -309,18 +354,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.189522,
-          25.768744
+          -122.4081685,
+          37.800704
         ]
       },
       "properties": {
-        "title": "Café Icon",
-        "description": "Address: 485 Brickell Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"café-icon-miami-4\">Host table</button>",
+        "title": "Hole In The Wall Coffee",
+        "url": "http://www.yelp.com/biz/hole-in-the-wall-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "524 Union St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "hole-in-the-wall-coffee-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "café-icon-miami-4",
+        "id": "hole-in-the-wall-coffee-san-francisco",
         "host": false
       }
     },
@@ -329,18 +377,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2422603872958,
-          25.7285815905272
+          -122.39338696954,
+          37.775558280936
         ]
       },
       "properties": {
-        "title": "Le Macaron",
-        "description": "Address: 3015 Grand Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"le-macaron-miami-2\">Host table</button>",
+        "title": "Philz Coffee",
+        "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "201 Berry St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "philz-coffee-san-francisco-3",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "le-macaron-miami-2",
+        "id": "philz-coffee-san-francisco-3",
         "host": false
       }
     },
@@ -349,18 +400,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2396472079233,
-          25.7289161729766
+          -122.434422304778,
+          37.7610599441666
         ]
       },
       "properties": {
-        "title": "The Bookstore In the Grove",
-        "description": "Address: 3390 Mary St<br>Rating: &#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"the-bookstore-in-the-grove-miami-2\">Host table</button>",
+        "title": "Réveille Coffee Co.",
+        "url": "http://www.yelp.com/biz/r%C3%A9veille-coffee-co-san-francisco-6?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "4076 18th St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "réveille-coffee-co-san-francisco-6",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "the-bookstore-in-the-grove-miami-2",
+        "id": "réveille-coffee-co-san-francisco-6",
         "host": false
       }
     },
@@ -369,18 +423,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.201751,
-          25.802452
+          -122.393915990428,
+          37.796147602803
         ]
       },
       "properties": {
-        "title": "Miam Café & Boutique",
-        "description": "Address: 2750 NW 3rd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"miam-café-and-boutique-miami-8\">Host table</button>",
+        "title": "Blue Bottle Coffee",
+        "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-10?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "1 Ferry Bldg",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "blue-bottle-coffee-san-francisco-10",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "miam-café-and-boutique-miami-8",
+        "id": "blue-bottle-coffee-san-francisco-10",
         "host": false
       }
     },
@@ -389,18 +446,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.3100767,
-          25.7785346
+          -122.402862548828,
+          37.7802696228027
         ]
       },
       "properties": {
-        "title": "Caffe Lingo",
-        "description": "Address: 777 NW 72nd Ave<br>Rating: &#9733;&#9733;&#9733;&#9733;<br><button onclick=\"hostTable();\" type=\"button\" class=\"hostButton\" id =\"caffe-lingo-miami\">Host table</button>",
+        "title": "Elite Audio Coffee Bar",
+        "url": "http://www.yelp.com/biz/elite-audio-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+        "address": "893A Folsom St",
+        "rating": "&#9733;&#9733;&#9733;&#9733;",
+        "id": "elite-audio-coffee-bar-san-francisco",
         "marker-color": "#fc4353",
         "marker-size": "small"
       },
       "db": {
-        "id": "caffe-lingo-miami",
+        "id": "elite-audio-coffee-bar-san-francisco",
         "host": false
       }
     }

@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <title>Fifty-Fifty</title>
     <style>
-        body { 
+        body{ 
             margin:0;
         }
-        #map { 
+        #map{ 
             position:absolute; 
             top:0; 
             bottom:0;
@@ -19,7 +19,7 @@
             width:75%;
             z-index: 0;
         }
-        #title {
+        #title{
             font-family: Roboto;
             font-size: 4.5em;
             color: white;
@@ -52,26 +52,31 @@
             font-size:12px;
             margin-top:4px;
         }
-
-        ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        a:link, a:visited{
+            color: #fc4353;
+        }
+        a:hover, a:active{
+            color: #fc4353;
+        }
+        ::-webkit-input-placeholder{ /* WebKit, Blink, Edge */
             color: #FFFFFF;
             font-family:Roboto;
         }
-        :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        :-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
             color: #FFFFFF;
             opacity: 1;
             font-family:Roboto;
         }
-        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        ::-moz-placeholder{ /* Mozilla Firefox 19+ */
             color: #FFFFFF;
             opacity: 1;
             font-family:Roboto;
         }
-        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        :-ms-input-placeholder{ /* Internet Explorer 10-11 */
             color: #FFFFFF;
             font-family:Roboto;
         }
-        :placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+        :placeholder-shown{ /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
             color: #FFFFFF;
             font-family:Roboto;
         }
@@ -88,9 +93,21 @@
     </form>
     <script>
         L.mapbox.accessToken = 'pk.eyJ1IjoiY2hhc2VzdGFyciIsImEiOiJjaWtjczAydzkwbTFydjBrcGFmcmV6a3p4In0.7N_qPo1tQlE943MlZyFkfw';
-        L.mapbox.map('map', 'mapbox.light').setView({{center|json|raw}}, 12)
-            .featureLayer.setGeoJSON({{geojson|json|raw}});
-            
+        var map = L.mapbox.map('map', 'mapbox.light').setView({{center|json|raw}}, 12);
+        var myLayer = L.mapbox.featureLayer().addTo(map);
+        myLayer.on('layeradd', function(e) {
+            var marker = e.layer;
+            var feature = marker.feature;
+                
+            var content = "<b><a href='"+ feature.properties.url + "' target='_blank' class='businessTitle'>" + feature.properties.title + "<\/a><\/b>" +
+            "<br>Address: " + feature.properties.address +
+            "<br>Rating: " + feature.properties.rating + 
+            "<br><button onclick='hostTable();' type='button' class='hostButton' id='" + feature.properties.id + "'>Host table<\/button>";
+
+            marker.bindPopup(content, {closeButton: false});
+        });
+        myLayer.setGeoJSON({{geojson|json|raw}});
+        
         function hostTable(){
             alert("works");
         }
