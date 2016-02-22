@@ -1,15 +1,16 @@
 var yelpConfig = require('./configs/yelpConfig.js');
+var MongoClient = require('mongodb').MongoClient;
 var Yelp = require('yelp');
 var fs = require('fs');
 var express = require('express');
 var cons = require('consolidate');
 var swig = require('swig');
 
+var yelp = new Yelp(yelpConfig);
 var app = express();
 app.engine('html', cons.swig);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/html');
-var yelp = new Yelp(yelpConfig);
 
 app.get('/', function(req,res,next){
     var loc = req.query.loc;
@@ -31,17 +32,18 @@ app.get('/', function(req,res,next){
     //Database update
     if(id != undefined || id != null){
         //Call function to add data to the database
-        updateDB(id);
+        // updateDB(id);
     }
 });
 
 var searchYelp = function(params, callback){
     yelp.search(params, function(e,res){
         // console.log(res);
-        if(e) return console.log(res);
+        if(e) return console.log(e);
         var center = [res.region.center.latitude, res.region.center.longitude];
         //Map api response to simplified format
         var out = res.businesses.map(function(element){
+            readDB(element.id);
             var coordObj = element.location.coordinate;
             //geoData object sent to html file
             var obj = {
@@ -100,5 +102,23 @@ var starRating = function(num){
 
 //update json file with id information
 var updateDB = function(id){
+    MongoClient.connect('mongodb://localhost:27017/fifty-fifty', function(e,db){
+        if(e) throw e;
+        
+        var cursor = db.colelction("tables").find({});
+    });
+};
+
+var readDB = function(id){
     console.log(id);
-}
+    var tableStatus = false;
+    MongoClient.connect('mongodb://localhost:27017/fifty-fifty', function(e,db){
+        var cursor = db.collection("tables").find({_id: id});
+        cursor.each(function(e,doc){
+            if(e) throw e;
+            if(doc == null) return false;
+            tableStatus = doc.host;
+            console.log(tableStatus);
+        });
+    });
+};
