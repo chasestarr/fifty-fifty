@@ -4,37 +4,17 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.407697,
-        37.782352
+        -82.4693222045898,
+        27.9405574798584
       ]
     },
     "properties": {
-      "title": "Blue Bottle Coffee Co",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-co-san-francisco-7?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "66 Mint St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "blue-bottle-coffee-co-san-francisco-7",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.439849853516,
-        37.7996597290039
-      ]
-    },
-    "properties": {
-      "title": "Bereka Coffee",
-      "url": "http://www.yelp.com/biz/bereka-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2320 Lombard St",
+      "title": "Jet City Espresso",
+      "url": "http://www.yelp.com/biz/jet-city-espresso-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "318 S Edison Ave",
       "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "bereka-coffee-san-francisco",
+      "id": "jet-city-espresso-tampa",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -44,17 +24,17 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.42184275,
-        37.7670169511878
+        -82.5062789916992,
+        27.9166679382324
       ]
     },
     "properties": {
-      "title": "Four Barrel Coffee",
-      "url": "http://www.yelp.com/biz/four-barrel-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "375 Valencia St",
+      "title": "The Library Coffeehouse",
+      "url": "http://www.yelp.com/biz/the-library-coffeehouse-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "3201 S Dale Mabry Hwy",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "four-barrel-coffee-san-francisco",
+      "id": "the-library-coffeehouse-tampa",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -64,77 +44,17 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4085083,
-        37.7769585
+        -82.4474200978875,
+        27.9512297651195
       ]
     },
     "properties": {
-      "title": "Sightglass Coffee",
-      "url": "http://www.yelp.com/biz/sightglass-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "270 7th St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "sightglass-coffee-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.423211,
-        37.77638
-      ]
-    },
-    "properties": {
-      "title": "Blue Bottle Coffee",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-8?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "315 Linden St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "blue-bottle-coffee-san-francisco-8",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.420526,
-        37.782383
-      ]
-    },
-    "properties": {
-      "title": "Philz Coffee",
-      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "748 Van Ness Ave",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "philz-coffee-san-francisco-4",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4187899,
-        37.7470855
-      ]
-    },
-    "properties": {
-      "title": "CoffeeShop",
-      "url": "http://www.yelp.com/biz/coffeeshop-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "3139 Mission St",
+      "title": "Ginger Beard Coffee",
+      "url": "http://www.yelp.com/biz/ginger-beard-coffee-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1208 E Kennedy Blvd",
       "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
-      "host": true,
-      "id": "coffeeshop-san-francisco",
+      "host": false,
+      "id": "ginger-beard-coffee-tampa",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -144,18 +64,38 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4529495,
-        37.7814293
+        -82.480744,
+        27.944552
       ]
     },
     "properties": {
-      "title": "Fifty / Fifty Coffee and Tea",
-      "url": "http://www.yelp.com/biz/fifty-fifty-coffee-and-tea-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "3157 Geary Blvd",
+      "title": "Buddy Brew Coffee",
+      "url": "http://www.yelp.com/biz/buddy-brew-coffee-tampa-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2020 W Kennedy Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "buddy-brew-coffee-tampa-3",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.459154,
+        28.000023
+      ]
+    },
+    "properties": {
+      "title": "Jet City Espresso",
+      "url": "http://www.yelp.com/biz/jet-city-espresso-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "5803 N Florida Ave",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": true,
-      "id": "fifty-fifty-coffee-and-tea-san-francisco",
-      "marker-color": "#fc4353",
+      "id": "jet-city-espresso-tampa-2",
+      "marker-color": "#32CD32",
       "marker-size": "small"
     }
   },
@@ -164,217 +104,277 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4409499,
-        37.7879217
+        -82.5500007,
+        28.063494
       ]
     },
     "properties": {
-      "title": "b. Patisserie",
-      "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2821 California St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "b-patisserie-san-francisco-2",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4249268,
-        37.7773209
-      ]
-    },
-    "properties": {
-      "title": "Artis Coffee",
-      "url": "http://www.yelp.com/biz/artis-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "537 Octavia St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "artis-coffee-san-francisco-3",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.421371459961,
-        37.7564163208008
-      ]
-    },
-    "properties": {
-      "title": "Ritual Coffee Roasters",
-      "url": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1026 Valencia St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "ritual-coffee-roasters-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.419327,
-        37.791405
-      ]
-    },
-    "properties": {
-      "title": "Contraband Coffee Bar",
-      "url": "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1415 Larkin St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "contraband-coffee-bar-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4081685,
-        37.800704
-      ]
-    },
-    "properties": {
-      "title": "Hole In The Wall Coffee",
-      "url": "http://www.yelp.com/biz/hole-in-the-wall-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "524 Union St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "hole-in-the-wall-coffee-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.436591312289,
-        37.7968548431401
-      ]
-    },
-    "properties": {
-      "title": "Wrecking Ball Coffee Roasters",
-      "url": "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2271 Union St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "wrecking-ball-coffee-roasters-san-francisco-2",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.39338696954,
-        37.775558280936
-      ]
-    },
-    "properties": {
-      "title": "Philz Coffee",
-      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "201 Berry St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "philz-coffee-san-francisco-3",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.393915990428,
-        37.796147602803
-      ]
-    },
-    "properties": {
-      "title": "Blue Bottle Coffee",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-10?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1 Ferry Bldg",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "blue-bottle-coffee-san-francisco-10",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.434422304778,
-        37.7610599441666
-      ]
-    },
-    "properties": {
-      "title": "Réveille Coffee Co.",
-      "url": "http://www.yelp.com/biz/r%C3%A9veille-coffee-co-san-francisco-6?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "4076 18th St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "réveille-coffee-co-san-francisco-6",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.402862548828,
-        37.7802696228027
-      ]
-    },
-    "properties": {
-      "title": "Elite Audio Coffee Bar",
-      "url": "http://www.yelp.com/biz/elite-audio-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "893A Folsom St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "elite-audio-coffee-bar-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.395782843232,
-        37.7803342044353
-      ]
-    },
-    "properties": {
-      "title": "STEEP",
-      "url": "http://www.yelp.com/biz/steep-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "240 Ritch St",
+      "title": "Sips Specialty Coffee House",
+      "url": "http://www.yelp.com/biz/sips-specialty-coffee-house-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "6118 Gunn Hwy",
       "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "steep-san-francisco-2",
+      "id": "sips-specialty-coffee-house-tampa",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.51064,
+        27.94455
+      ]
+    },
+    "properties": {
+      "title": "Coffee Evi",
+      "url": "http://www.yelp.com/biz/coffee-evi-tampa-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "4020 W Kennedy Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "coffee-evi-tampa-3",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4378051757812,
+        27.9600448608398
+      ]
+    },
+    "properties": {
+      "title": "The Blind Tiger Cafe - Ybor City",
+      "url": "http://www.yelp.com/biz/the-blind-tiger-cafe-ybor-city-tampa-5?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1901 E 7th Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-blind-tiger-cafe-ybor-city-tampa-5",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4598236,
+        27.9508896
+      ]
+    },
+    "properties": {
+      "title": "Kahwa Coffee Roasting",
+      "url": "http://www.yelp.com/biz/kahwa-coffee-roasting-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "808 N Franklin St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "kahwa-coffee-roasting-tampa-2",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4537351852265,
+        27.9268944446293
+      ]
+    },
+    "properties": {
+      "title": "DI Coffee Bar",
+      "url": "http://www.yelp.com/biz/di-coffee-bar-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "214 E Davis Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "di-coffee-bar-tampa",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4466482747334,
+        27.94731236247
+      ]
+    },
+    "properties": {
+      "title": "Victory Coffee",
+      "url": "http://www.yelp.com/biz/victory-coffee-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "101 N 12th St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "victory-coffee-tampa",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.5090669393563,
+        27.9307559755669
+      ]
+    },
+    "properties": {
+      "title": "Kahwa Coffee",
+      "url": "http://www.yelp.com/biz/kahwa-coffee-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "3928 W Henderson Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "kahwa-coffee-tampa-2",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4000349,
+        28.0553173
+      ]
+    },
+    "properties": {
+      "title": "Felicitous",
+      "url": "http://www.yelp.com/biz/felicitous-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "11706 N 51st St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "felicitous-tampa",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.50632,
+        27.92591
+      ]
+    },
+    "properties": {
+      "title": "Mini Doughnut Factory",
+      "url": "http://www.yelp.com/biz/mini-doughnut-factory-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2109 S Dale Mabry Hwy",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "mini-doughnut-factory-tampa",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.5923491,
+        28.0436758
+      ]
+    },
+    "properties": {
+      "title": "The Grind Coffee Bar & Cafe at Westchase",
+      "url": "http://www.yelp.com/biz/the-grind-coffee-bar-and-cafe-at-westchase-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "9532 W Linebaugh Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-grind-coffee-bar-and-cafe-at-westchase-tampa",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.483729,
+        27.930772
+      ]
+    },
+    "properties": {
+      "title": "Chocolate Pi",
+      "url": "http://www.yelp.com/biz/chocolate-pi-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1205 S Howard Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "chocolate-pi-tampa-2",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4596634,
+        27.9919891
+      ]
+    },
+    "properties": {
+      "title": "The Independent",
+      "url": "http://www.yelp.com/biz/the-independent-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "5016 N Florida Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-independent-tampa",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4766945,
+        27.9356197
+      ]
+    },
+    "properties": {
+      "title": "Piquant",
+      "url": "http://www.yelp.com/biz/piquant-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1633 W Snow Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "piquant-tampa-2",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4378099829458,
+        27.9613126032645
+      ]
+    },
+    "properties": {
+      "title": "The Bunker",
+      "url": "http://www.yelp.com/biz/the-bunker-tampa-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1907 N 19th St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-bunker-tampa-3",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }

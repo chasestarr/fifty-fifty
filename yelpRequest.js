@@ -15,9 +15,7 @@ db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function(){
     // connected
     console.log('mongoose connected successfully');
-
     require('./config/mongoose/seed')(db);
-
 });
 
 var schema = require('./config/schema/databaseSchema');
@@ -68,6 +66,13 @@ var searchYelp = function(params, callback){
         var businessData = res.businesses.map(function(element){
             readDB(element.id)
                 .then((tableStatus) => {
+                    var c = "";
+                    if(tableStatus){
+                        c = "#32CD32";
+                    } else {
+                        c = "#fc4353";
+                    }
+                    
                     return output = {
                         type: "Feature",
                         geometry: {
@@ -81,7 +86,7 @@ var searchYelp = function(params, callback){
                             rating: starRating(element.rating),
                             host: tableStatus,
                             id: element.id,
-                            "marker-color": "#fc4353",
+                            "marker-color": c,
                             "marker-size": "small"
                         }
                     };
@@ -145,10 +150,10 @@ var updateDB = function(id){
                     resolve();
                 });
             }else{
-                var restaurantItem = Restaurant({ restaurant:id, host:true });
+                var restaurantItem = Restaurant({ restaurantId:id, host:true });
                 restaurantItem.save(function(err,editedDoc){
                     if(err) return console.error(err);
-                    console.log("made a new doc");
+                    console.log("added ", restaurantItem, "to the db");
                     resolve();
                 });
             }

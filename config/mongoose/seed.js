@@ -4,6 +4,7 @@ var schema = require('../schema/databaseSchema');
 
 module.exports = function(db){
     // mongoose command to drop your db
+    console.log("database dropped");
      db.db.dropDatabase();
 
     // seed restaurant
