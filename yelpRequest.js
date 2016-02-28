@@ -35,24 +35,23 @@ app.get('/', function(req,res){
     } else {
         params = {term: 'coffee', location: loc};
     }
-    //Search request
-    searchYelp(params, function(data, center){
-       // var centerArr = data.center;
-       // var mapData = data.geoJSON;
-        res.render('index', {"center":center,"geojson":data});
-        writeJSON(data, "results.json");
-    });
-
-    //Database update
-    if(id != undefined || id != null){
-        //Call function to add data to the database
-        // updateDB(id);
+    if(id){
+        updateDB(id)
+        .then(() => {
+            searchYelp(params, function(data, center){
+                res.render('index', {"center":center,"geojson":data});
+                writeJSON(data, "results.json");
+            });
+        });
+    } else {
+        //Search request
+        searchYelp(params, function(data, center){
+            res.render('index', {"center":center,"geojson":data});
+            writeJSON(data, "results.json");
+        });  
     }
+    
 });
-
-
-
-
 
 var searchYelp = function(params, callback){
     var newMap = [];
@@ -107,8 +106,6 @@ var searchYelp = function(params, callback){
                     console.error(err);
                 });
         })
-
-
     });
 };
 
@@ -137,9 +134,25 @@ var starRating = function(num){
 
 //update json file with id information
 var updateDB = function(id){
-    MongoClient.connect('mongodb://localhost:27017/fifty-fifty', function(e,db){
-        if(e) throw e;
-        var cursor = db.collection("tables").find({});
+    return new Promise(function(resolve, reject){
+        var Restaurant = schema.restaurant;
+        Restaurant.findOne({restaurantId: id}, (err, business) =>{
+            if(err) {reject(err); }
+            if(business){
+                var newHost = !business.host;
+                Restaurant.update({restaurantId: id},{set:{host:newHost}}, function(e,business){
+                    if(e){ reject(e); }
+                    resolve();
+                });
+            }else{
+                var restaurantItem = Restaurant({ restaurant:id, host:true });
+                restaurantItem.save(function(err,editedDoc){
+                    if(err) return console.error(err);
+                    console.log("made a new doc");
+                    resolve();
+                });
+            }
+        });
     });
 };
 
@@ -147,10 +160,10 @@ var updateDB = function(id){
 var readDB = function(id){
     return new Promise(function(resolve, reject){
         var Restaurant = schema.restaurant;
-        Restaurant.findOne({restaurantId: id}, (err, person) => {
+        Restaurant.findOne({restaurantId: id}, (err, business) => {
            if (err) { reject(err); }
-            if (person){
-                resolve(person.host);
+            if (business){
+                resolve(business.host);
             }else
             {
                 resolve(false);
