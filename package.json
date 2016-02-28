@@ -4,7 +4,8 @@
   "description": "Coffe shop table-sharing app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node yelpRequest.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,12 @@
     "consolidate": "^0.14.0",
     "express": "^4.13.4",
     "mongodb": "^2.1.7",
+    "mongoose": "^4.4.5",
     "swig": "^1.4.2",
     "yelp": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6"
   }
 }
