@@ -63,16 +63,9 @@ var searchYelp = function(params, callback){
         var center = [res.region.center.latitude, res.region.center.longitude];
 
         //Map api response to format readable by mapbox
-        var businessData = res.businesses.map(function(element){
+        res.businesses.map(function(element){
             readDB(element.id)
                 .then((tableStatus) => {
-                    var c = "";
-                    if(tableStatus){
-                        c = "#32CD32";
-                    } else {
-                        c = "#fc4353";
-                    }
-                    
                     return output = {
                         type: "Feature",
                         geometry: {
@@ -86,7 +79,7 @@ var searchYelp = function(params, callback){
                             rating: starRating(element.rating),
                             host: tableStatus,
                             id: element.id,
-                            "marker-color": c,
+                            "marker-color": markerColor(tableStatus),
                             "marker-size": "small"
                         }
                     };
@@ -135,7 +128,15 @@ var starRating = function(num){
         stars = stars + "&#9734;";
     }
     return stars;
-}
+};
+
+var markerColor = function(b){
+    if(b){
+        return "#32CD32";
+    } else {
+        return "#fc4353";
+    }
+};
 
 //update json file with id information
 var updateDB = function(id){
@@ -144,8 +145,7 @@ var updateDB = function(id){
         Restaurant.findOne({restaurantId: id}, (err, business) =>{
             if(err) {reject(err); }
             if(business){
-                var newHost = !business.host;
-                Restaurant.update({restaurantId: id},{set:{host:newHost}}, function(e,business){
+                business.update({restaurantId: business.id},{host:!business.host}, function(e,bus){
                     if(e){ reject(e); }
                     resolve();
                 });
@@ -161,7 +161,7 @@ var updateDB = function(id){
     });
 };
 
-// I put stuff in ffasd
+// read info from database
 var readDB = function(id){
     return new Promise(function(resolve, reject){
         var Restaurant = schema.restaurant;
