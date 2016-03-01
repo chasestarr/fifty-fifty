@@ -26,10 +26,23 @@ app.engine('html', cons.swig);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/html');
 
+let locPrev = "";
 app.get('/', (req,res) => {
     let loc = req.query.loc;
     let id = req.query.id;
-    let params = loc ? {term: 'coffee', location: loc} : {term: 'coffee', location: 'san+francisco'};
+    let params = {};
+    // let params = loc ? {term: 'coffee', location: loc} : {term: 'coffee', location: 'san+francisco'};
+    if(loc && locPrev == ""){
+        locPrev = loc;
+        params = {term: 'coffee', location: loc};
+    } else if(loc == null && locPrev == ""){
+        params = {term: 'coffee', location: 'san+francisco'};
+    } else if(loc && locPrev != ""){
+        locPrev = loc;
+        params  = {term: 'coffee', location: loc};
+    } else {
+        params  = {term: 'coffee', location: locPrev};
+    }
     if(id){
         updateDB(id)
         .then(() => {
@@ -72,6 +85,7 @@ var searchYelp = (params, callback) => {
                             rating: starRating(element.rating),
                             host: tableStatus,
                             id: element.id,
+                            toggle: toggleButton(tableStatus),
                             "marker-color": markerColor(tableStatus),
                             "marker-size": "small"
                         }
@@ -120,6 +134,11 @@ function starRating(num){
 function markerColor(b){
     let color  = b ? "#FC7143" : "#fc4353";
     return color;
+};
+
+function toggleButton(b){
+    let text = b ? "Stop hosting" : "Host table";
+    return text;
 };
 
 //update json file with id information

@@ -114,8 +114,7 @@
             var content = "<b><a href='"+ feature.properties.url + "' target='_blank' class='businessTitle'>" + feature.properties.title + "<\/a><\/b>" +
             "<br>Address: " + feature.properties.address +
             "<br>Rating: " + feature.properties.rating + 
-            "<br><form><button  type='submit' class='hostButton' name='id' value='" + feature.properties.id + "'>Host table<\/button><\/form>" + 
-            "<br>Host Status: " + feature.properties.host;
+            "<br><form><button  type='submit' class='hostButton' name='id' value='" + feature.properties.id + "'>" + feature.properties.toggle + "<\/button><\/form>";
 
             marker.bindPopup(content, {closeButton: false});
         });

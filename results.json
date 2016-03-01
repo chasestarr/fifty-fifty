@@ -4,17 +4,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.407697,
-        37.782352
+        -80.05579,
+        26.71357
       ]
     },
     "properties": {
-      "title": "Blue Bottle Coffee Co",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-co-san-francisco-7?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "66 Mint St",
+      "title": "Subculture Coffee",
+      "url": "http://www.yelp.com/biz/subculture-coffee-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "509 Clematis St",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "blue-bottle-coffee-co-san-francisco-7",
+      "id": "subculture-coffee-west-palm-beach",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -24,37 +25,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.439849853516,
-        37.7996597290039
+        -80.055343,
+        26.735195
       ]
     },
     "properties": {
-      "title": "Bereka Coffee",
-      "url": "http://www.yelp.com/biz/bereka-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2320 Lombard St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "bereka-coffee-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.422026,
-        37.798473
-      ]
-    },
-    "properties": {
-      "title": "Saint Frank Coffee",
-      "url": "http://www.yelp.com/biz/saint-frank-coffee-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2340 Polk St",
+      "title": "Harold's Coffee Lounge",
+      "url": "http://www.yelp.com/biz/harolds-coffee-lounge-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "509 Northwood Rd",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "saint-frank-coffee-san-francisco-2",
+      "id": "harolds-coffee-lounge-west-palm-beach",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -64,17 +46,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.42184275,
-        37.7670169511878
+        -80.0536939392932,
+        26.7112646450477
       ]
     },
     "properties": {
-      "title": "Four Barrel Coffee",
-      "url": "http://www.yelp.com/biz/four-barrel-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "375 Valencia St",
+      "title": "Evernia Coffeehouse",
+      "url": "http://www.yelp.com/biz/evernia-coffeehouse-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "300 S Dixie Hwy",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "four-barrel-coffee-san-francisco",
+      "id": "evernia-coffeehouse-west-palm-beach",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -84,17 +67,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4085083,
-        37.7769585
+        -80.05388,
+        26.71011
       ]
     },
     "properties": {
-      "title": "Sightglass Coffee",
-      "url": "http://www.yelp.com/biz/sightglass-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "270 7th St",
+      "title": "Johan's Joe",
+      "url": "http://www.yelp.com/biz/johans-joe-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "401 S Dixie Hwy",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "sightglass-coffee-san-francisco",
+      "id": "johans-joe-west-palm-beach",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -104,17 +88,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.423211,
-        37.77638
+        -80.0525681776165,
+        26.7133015732015
       ]
     },
     "properties": {
-      "title": "Blue Bottle Coffee",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-8?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "315 Linden St",
+      "title": "C Street Cafe and Coffee Bar",
+      "url": "http://www.yelp.com/biz/c-street-cafe-and-coffee-bar-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "319 Clematis St",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "blue-bottle-coffee-san-francisco-8",
+      "id": "c-street-cafe-and-coffee-bar-west-palm-beach",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -124,37 +109,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.420526,
-        37.782383
+        -80.0602,
+        26.69025
       ]
     },
     "properties": {
-      "title": "Philz Coffee",
-      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "748 Van Ness Ave",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "philz-coffee-san-francisco-4",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4187899,
-        37.7470855
-      ]
-    },
-    "properties": {
-      "title": "CoffeeShop",
-      "url": "http://www.yelp.com/biz/coffeeshop-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "3139 Mission St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "title": "Tulipan Bakery & Cafe",
+      "url": "http://www.yelp.com/biz/tulipan-bakery-and-cafe-west-palm-beach-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "740 Belvedere Rd",
+      "rating": "&#9734;&#9734;&#9734;",
       "host": true,
-      "id": "coffeeshop-san-francisco",
+      "id": "tulipan-bakery-and-cafe-west-palm-beach-2",
+      "toggle": "Stop hosting",
       "marker-color": "#FC7143",
       "marker-size": "small"
     }
@@ -164,17 +130,123 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4529495,
-        37.7814293
+        -80.113390982151,
+        26.707044839859
       ]
     },
     "properties": {
-      "title": "Fifty / Fifty Coffee and Tea",
-      "url": "http://www.yelp.com/biz/fifty-fifty-coffee-and-tea-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "3157 Geary Blvd",
+      "title": "Nosh Cafe & Bakery",
+      "url": "http://www.yelp.com/biz/nosh-cafe-and-bakery-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "4619 Okeechobee Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "nosh-cafe-and-bakery-west-palm-beach",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.0501785,
+        26.71241
+      ]
+    },
+    "properties": {
+      "title": "The Bee",
+      "url": "http://www.yelp.com/biz/the-bee-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "123 Datura St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-bee-west-palm-beach",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.0875096768141,
+        26.7215783894062
+      ]
+    },
+    "properties": {
+      "title": "Starbucks",
+      "url": "http://www.yelp.com/biz/starbucks-west-palm-beach-8?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1815 Palm Beach Lakes Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "starbucks-west-palm-beach-8",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.0537499,
+        26.69776
+      ]
+    },
+    "properties": {
+      "title": "Serenity Garden Tea House & Restaurant",
+      "url": "http://www.yelp.com/biz/serenity-garden-tea-house-and-restaurant-west-palm-beach-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "316 Vallette Way",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "serenity-garden-tea-house-and-restaurant-west-palm-beach-2",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.0942212343216,
+        26.7632236760971
+      ]
+    },
+    "properties": {
+      "title": "Pony Espresso",
+      "url": "http://www.yelp.com/biz/pony-espresso-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "801 Northpoint Pkwy",
+      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "pony-espresso-west-palm-beach",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.0560654699802,
+        26.6549248248339
+      ]
+    },
+    "properties": {
+      "title": "Havana Restaurant",
+      "url": "http://www.yelp.com/biz/havana-restaurant-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "6801 S Dixie Hwy",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": true,
-      "id": "fifty-fifty-coffee-and-tea-san-francisco",
+      "id": "havana-restaurant-west-palm-beach",
+      "toggle": "Stop hosting",
       "marker-color": "#FC7143",
       "marker-size": "small"
     }
@@ -184,17 +256,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4249268,
-        37.7773209
+        -80.05687,
+        26.70822
       ]
     },
     "properties": {
-      "title": "Artis Coffee",
-      "url": "http://www.yelp.com/biz/artis-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "537 Octavia St",
+      "title": "Starbucks",
+      "url": "http://www.yelp.com/biz/starbucks-west-palm-beach-9?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "600 S Rosemary Ave Ste 164",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "artis-coffee-san-francisco-3",
+      "id": "starbucks-west-palm-beach-9",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -204,17 +277,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4409499,
-        37.7879217
+        -80.0517578,
+        26.7116604
       ]
     },
     "properties": {
-      "title": "b. Patisserie",
-      "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2821 California St",
+      "title": "Paris Bakery & Cafe",
+      "url": "http://www.yelp.com/biz/paris-bakery-and-cafe-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "212 S Olive Ave",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "b-patisserie-san-francisco-2",
+      "id": "paris-bakery-and-cafe-west-palm-beach",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -224,17 +298,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.421371459961,
-        37.7564163208008
+        -80.0643463,
+        26.7128601
       ]
     },
     "properties": {
-      "title": "Ritual Coffee Roasters",
-      "url": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1026 Valencia St",
+      "title": "Le Gourmet",
+      "url": "http://www.yelp.com/biz/le-gourmet-west-palm-beach?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "250 S Australian Ave",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "ritual-coffee-roasters-san-francisco",
+      "id": "le-gourmet-west-palm-beach",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -244,17 +319,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.39338696954,
-        37.775558280936
+        -80.0673221601741,
+        26.7983398687582
       ]
     },
     "properties": {
-      "title": "Philz Coffee",
-      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "201 Berry St",
+      "title": "The Brewhouse Gallery",
+      "url": "http://www.yelp.com/biz/the-brewhouse-gallery-lake-park?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "720 Park Ave",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "philz-coffee-san-francisco-3",
+      "id": "the-brewhouse-gallery-lake-park",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -264,17 +340,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.393915990428,
-        37.796147602803
+        -80.0561066,
+        26.6154594
       ]
     },
     "properties": {
-      "title": "Blue Bottle Coffee",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-10?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1 Ferry Bldg",
+      "title": "Common Grounds Coffee Bar",
+      "url": "http://www.yelp.com/biz/common-grounds-coffee-bar-lake-worth?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "12 S J St",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "blue-bottle-coffee-san-francisco-10",
+      "id": "common-grounds-coffee-bar-lake-worth",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -284,17 +361,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.419327,
-        37.791405
+        -80.0509186,
+        26.7134399
       ]
     },
     "properties": {
-      "title": "Contraband Coffee Bar",
-      "url": "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1415 Larkin St",
+      "title": "Paneterie",
+      "url": "http://www.yelp.com/biz/paneterie-west-palm-beach-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "205 Clematis St",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "contraband-coffee-bar-san-francisco",
+      "id": "paneterie-west-palm-beach-2",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -304,77 +382,18 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.4081685,
-        37.800704
+        -80.0529636,
+        26.735837
       ]
     },
     "properties": {
-      "title": "Hole In The Wall Coffee",
-      "url": "http://www.yelp.com/biz/hole-in-the-wall-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "524 Union St",
+      "title": "Agora Mediterranean Kitchen",
+      "url": "http://www.yelp.com/biz/agora-mediterranean-kitchen-west-palm-beach-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2505 N Dixie Hwy",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "hole-in-the-wall-coffee-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.436591312289,
-        37.7968548431401
-      ]
-    },
-    "properties": {
-      "title": "Wrecking Ball Coffee Roasters",
-      "url": "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2271 Union St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "wrecking-ball-coffee-roasters-san-francisco-2",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.434422304778,
-        37.7610599441666
-      ]
-    },
-    "properties": {
-      "title": "Réveille Coffee Co.",
-      "url": "http://www.yelp.com/biz/r%C3%A9veille-coffee-co-san-francisco-6?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "4076 18th St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "réveille-coffee-co-san-francisco-6",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.402862548828,
-        37.7802696228027
-      ]
-    },
-    "properties": {
-      "title": "Elite Audio Coffee Bar",
-      "url": "http://www.yelp.com/biz/elite-audio-coffee-bar-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "893A Folsom St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "elite-audio-coffee-bar-san-francisco",
+      "id": "agora-mediterranean-kitchen-west-palm-beach-2",
+      "toggle": "Host table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
