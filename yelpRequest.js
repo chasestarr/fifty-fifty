@@ -60,7 +60,7 @@ app.get('/', (req,res) => {
     } 
 });
 
-var searchYelp = (params, callback) => {
+  searchYelp (params, callback) {
     let newMap = [];
     let outputCount = 1;
 
