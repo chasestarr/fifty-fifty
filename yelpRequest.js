@@ -1,72 +1,65 @@
-var yelpConfig = require('./configs/yelpConfig.js');
-var Yelp = require('yelp');
-var fs = require('fs');
-var express = require('express');
-var cons = require('consolidate');
-var swig = require('swig');
-var nodePort = process.env.PORT || 3000;
-var dbConn = process.env.DBCONN || 'mongodb://localhost/fifty-fifty';
-var yelp = new Yelp(yelpConfig);
-var app = express();
-var mongoose = require('mongoose');
+'use strict'
+const yelpConfig = require('./configs/yelpConfig.js');
+const Yelp = require('yelp');
+const fs = require('fs');
+const express = require('express');
+const cons = require('consolidate');
+const swig = require('swig');
+let nodePort = process.env.PORT || 3000;
+let dbConn = process.env.DBCONN || 'mongodb://localhost/fifty-fifty';
+const yelp = new Yelp(yelpConfig);
+let app = express();
+
+const mongoose = require('mongoose');
 mongoose.connect(dbConn);
-var db = mongoose.connection;
+let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
-db.once('open', function(){
+db.once('open', () => {
     // connected
     console.log('mongoose connected successfully');
     require('./config/mongoose/seed')(db);
 });
 
-var schema = require('./config/schema/databaseSchema');
+let schema = require('./config/schema/databaseSchema');
 
 app.engine('html', cons.swig);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/html');
 
-app.get('/', function(req,res){
-    var loc = req.query.loc;
-    var id = req.query.id;
-    var params = {};
-    if(loc === undefined || loc === null){
-        params = {term: 'coffee', location: 'san+francisco'};
-    } else {
-        params = {term: 'coffee', location: loc};
-    }
+app.get('/', (req,res) => {
+    let loc = req.query.loc;
+    let id = req.query.id;
+    let params = loc ? {term: 'coffee', location: loc} : {term: 'coffee', location: 'san+francisco'};
     if(id){
         updateDB(id)
         .then(() => {
-            searchYelp(params, function(data, center){
+            searchYelp(params, (data, center) => {
                 res.render('index', {"center":center,"geojson":data});
                 writeJSON(data, "results.json");
             });
         });
     } else {
         //Search request
-        searchYelp(params, function(data, center){
+        searchYelp(params, (data, center) => {
             res.render('index', {"center":center,"geojson":data});
             writeJSON(data, "results.json");
         });  
-    }
-    
+    } 
 });
 
-var searchYelp = function(params, callback){
-    var newMap = [];
-    newMap.push = function() {Array.prototype.push.apply(this, arguments);  };
-    newMap.splice = function() {Array.prototype.splice.apply(this, arguments);  };
-    var outputCount = 1;
+var searchYelp = (params, callback) => {
+    let newMap = [];
+    let outputCount = 1;
 
-    yelp.search(params, function(e,res){
-        // console.log(res);
-        if(e) return console.log(e);
-        var center = [res.region.center.latitude, res.region.center.longitude];
+    yelp.search(params, (e,res) => {
+        if(e) return console.error(e);
+        let center = [res.region.center.latitude, res.region.center.longitude];
 
         //Map api response to format readable by mapbox
-        res.businesses.map(function(element){
+        res.businesses.map((element) => {
             readDB(element.id)
                 .then((tableStatus) => {
-                    return output = {
+                    return {
                         type: "Feature",
                         geometry: {
                             type: "Point",
@@ -87,14 +80,8 @@ var searchYelp = function(params, callback){
                 .then((output) => {
                     if (res.businesses.length > outputCount) {
                         outputCount += 1;
-                        var geoObj = {
-                            center: center,
-                            geoJSON: output
-                        };
-
                         newMap.push(output);
-                    }
-                    else {
+                    } else {
                         callback(newMap, center);
                         newMap = [];
                         outputCount = 1;
@@ -103,7 +90,7 @@ var searchYelp = function(params, callback){
                 .catch((err) => {
                     console.error(err);
                 });
-        })
+        });
     });
 };
 
@@ -113,47 +100,43 @@ app.listen(nodePort, function(){
 });
 
 //write json out to file for analyzing output
-var writeJSON = function(json, fileName){
+function writeJSON(json, fileName){
     fs.writeFile(fileName, JSON.stringify(json, null, 2), function(e){
-        if(e) return console.log(e);
+        if(e) return console.error(e);
         console.log("'" + fileName + "' was saved");
     });
 };
 
 //convert number rating to unicode stars
-var starRating = function(num){
-    var stars = "";
-    var flatRating = Math.floor(num);
-    for(var i = 0; i < flatRating; i++){
+function starRating(num){
+    let stars = "";
+    let flatRating = Math.floor(num);
+    for(let i = 0; i < flatRating; i++){
         stars = stars + "&#9734;";
     }
     return stars;
 };
 
-var markerColor = function(b){
-    if(b){
-        return "#32CD32";
-    } else {
-        return "#fc4353";
-    }
+function markerColor(b){
+    let color  = b ? "#FC7143" : "#fc4353";
+    return color;
 };
 
 //update json file with id information
-var updateDB = function(id){
-    return new Promise(function(resolve, reject){
-        var Restaurant = schema.restaurant;
-        Restaurant.findOne({restaurantId: id}, (err, business) =>{
-            if(err) {reject(err); }
+function updateDB(id){
+    return new Promise((resolve, reject) => {
+        let Restaurant = schema.restaurant;
+        Restaurant.findOne({restaurantId: id}, (e, business) =>{
+            if(e) {reject(e); }
             if(business){
-                business.update({restaurantId: business.id},{host:!business.host}, function(e,bus){
+                business.update({restaurantId: business.id},{host:!business.host}, (e,bus) => {
                     if(e){ reject(e); }
                     resolve();
                 });
             }else{
-                var restaurantItem = Restaurant({ restaurantId:id, host:true });
-                restaurantItem.save(function(err,editedDoc){
-                    if(err) return console.error(err);
-                    console.log("added ", restaurantItem, "to the db");
+                let restaurantItem = Restaurant({ restaurantId:id, host:true });
+                restaurantItem.save((e,editedDoc) => {
+                    if(e) return console.error(e);
                     resolve();
                 });
             }
@@ -162,17 +145,12 @@ var updateDB = function(id){
 };
 
 // read info from database
-var readDB = function(id){
-    return new Promise(function(resolve, reject){
-        var Restaurant = schema.restaurant;
+function readDB(id){
+    return new Promise((resolve, reject) => {
+        let Restaurant = schema.restaurant;
         Restaurant.findOne({restaurantId: id}, (err, business) => {
            if (err) { reject(err); }
-            if (business){
-                resolve(business.host);
-            }else
-            {
-                resolve(false);
-            }
+           business ? resolve(business.host) : resolve(false);
         });
     });
 };

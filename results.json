@@ -44,6 +44,26 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
+        -122.422026,
+        37.798473
+      ]
+    },
+    "properties": {
+      "title": "Saint Frank Coffee",
+      "url": "http://www.yelp.com/biz/saint-frank-coffee-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2340 Polk St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "saint-frank-coffee-san-francisco-2",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
         -122.42184275,
         37.7670169511878
       ]
@@ -135,7 +155,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
       "host": true,
       "id": "coffeeshop-san-francisco",
-      "marker-color": "#32CD32",
+      "marker-color": "#FC7143",
       "marker-size": "small"
     }
   },
@@ -155,27 +175,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": true,
       "id": "fifty-fifty-coffee-and-tea-san-francisco",
-      "marker-color": "#32CD32",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4409499,
-        37.7879217
-      ]
-    },
-    "properties": {
-      "title": "b. Patisserie",
-      "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2821 California St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "b-patisserie-san-francisco-2",
-      "marker-color": "#fc4353",
+      "marker-color": "#FC7143",
       "marker-size": "small"
     }
   },
@@ -204,6 +204,26 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
+        -122.4409499,
+        37.7879217
+      ]
+    },
+    "properties": {
+      "title": "b. Patisserie",
+      "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2821 California St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "b-patisserie-san-francisco-2",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
         -122.421371459961,
         37.7564163208008
       ]
@@ -215,6 +235,46 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "ritual-coffee-roasters-san-francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.39338696954,
+        37.775558280936
+      ]
+    },
+    "properties": {
+      "title": "Philz Coffee",
+      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "201 Berry St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "philz-coffee-san-francisco-3",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.393915990428,
+        37.796147602803
+      ]
+    },
+    "properties": {
+      "title": "Blue Bottle Coffee",
+      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-10?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1 Ferry Bldg",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "blue-bottle-coffee-san-francisco-10",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -284,46 +344,6 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.39338696954,
-        37.775558280936
-      ]
-    },
-    "properties": {
-      "title": "Philz Coffee",
-      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "201 Berry St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "philz-coffee-san-francisco-3",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.393915990428,
-        37.796147602803
-      ]
-    },
-    "properties": {
-      "title": "Blue Bottle Coffee",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-10?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1 Ferry Bldg",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "blue-bottle-coffee-san-francisco-10",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
         -122.434422304778,
         37.7610599441666
       ]
@@ -355,26 +375,6 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "elite-audio-coffee-bar-san-francisco",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.395782843232,
-        37.7803342044353
-      ]
-    },
-    "properties": {
-      "title": "STEEP",
-      "url": "http://www.yelp.com/biz/steep-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "240 Ritch St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "steep-san-francisco-2",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
