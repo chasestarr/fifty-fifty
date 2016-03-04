@@ -1,5 +1,5 @@
 'use strict'
-const yelpConfig = require('./configs/yelpConfig.js');
+const yelpConfig = require('./config/yelpConfig.js');
 const Yelp = require('yelp');
 const yelp = new Yelp(yelpConfig);
 const dbUtils = require('./config/db.js');
