@@ -1,0 +1,401 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4693222045898,
+        27.9405574798584
+      ]
+    },
+    "properties": {
+      "title": "Jet City Espresso",
+      "url": "http://www.yelp.com/biz/jet-city-espresso-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "318 S Edison Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "jet-city-espresso-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.5062789916992,
+        27.9166679382324
+      ]
+    },
+    "properties": {
+      "title": "The Library Coffeehouse",
+      "url": "http://www.yelp.com/biz/the-library-coffeehouse-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "3201 S Dale Mabry Hwy",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-library-coffeehouse-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4474200978875,
+        27.9512297651195
+      ]
+    },
+    "properties": {
+      "title": "Ginger Beard Coffee",
+      "url": "http://www.yelp.com/biz/ginger-beard-coffee-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1208 E Kennedy Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "ginger-beard-coffee-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.480744,
+        27.944552
+      ]
+    },
+    "properties": {
+      "title": "Buddy Brew Coffee",
+      "url": "http://www.yelp.com/biz/buddy-brew-coffee-tampa-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2020 W Kennedy Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "buddy-brew-coffee-tampa-3",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4598236,
+        27.9508896
+      ]
+    },
+    "properties": {
+      "title": "Kahwa Coffee Roasting",
+      "url": "http://www.yelp.com/biz/kahwa-coffee-roasting-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "808 N Franklin St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "kahwa-coffee-roasting-tampa-2",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.459154,
+        28.000023
+      ]
+    },
+    "properties": {
+      "title": "Jet City Espresso",
+      "url": "http://www.yelp.com/biz/jet-city-espresso-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "5803 N Florida Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "jet-city-espresso-tampa-2",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.5500007,
+        28.063494
+      ]
+    },
+    "properties": {
+      "title": "Sips Specialty Coffee House",
+      "url": "http://www.yelp.com/biz/sips-specialty-coffee-house-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "6118 Gunn Hwy",
+      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "sips-specialty-coffee-house-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.51064,
+        27.94455
+      ]
+    },
+    "properties": {
+      "title": "Coffee Evi",
+      "url": "http://www.yelp.com/biz/coffee-evi-tampa-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "4020 W Kennedy Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "coffee-evi-tampa-3",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4378051757812,
+        27.9600448608398
+      ]
+    },
+    "properties": {
+      "title": "The Blind Tiger Cafe - Ybor City",
+      "url": "http://www.yelp.com/biz/the-blind-tiger-cafe-ybor-city-tampa-5?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1901 E 7th Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-blind-tiger-cafe-ybor-city-tampa-5",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4537351852265,
+        27.9268944446293
+      ]
+    },
+    "properties": {
+      "title": "DI Coffee Bar",
+      "url": "http://www.yelp.com/biz/di-coffee-bar-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "214 E Davis Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "di-coffee-bar-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4466482747334,
+        27.94731236247
+      ]
+    },
+    "properties": {
+      "title": "Victory Coffee",
+      "url": "http://www.yelp.com/biz/victory-coffee-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "101 N 12th St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "victory-coffee-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.5090669393563,
+        27.9307559755669
+      ]
+    },
+    "properties": {
+      "title": "Kahwa Coffee",
+      "url": "http://www.yelp.com/biz/kahwa-coffee-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "3928 W Henderson Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "kahwa-coffee-tampa-2",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4000349,
+        28.0553173
+      ]
+    },
+    "properties": {
+      "title": "Felicitous",
+      "url": "http://www.yelp.com/biz/felicitous-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "11706 N 51st St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "felicitous-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.50632,
+        27.92591
+      ]
+    },
+    "properties": {
+      "title": "Mini Doughnut Factory",
+      "url": "http://www.yelp.com/biz/mini-doughnut-factory-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2109 S Dale Mabry Hwy",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "mini-doughnut-factory-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4378099829458,
+        27.9613126032645
+      ]
+    },
+    "properties": {
+      "title": "The Bunker",
+      "url": "http://www.yelp.com/biz/the-bunker-tampa-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1907 N 19th St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-bunker-tampa-3",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.5923491,
+        28.0436758
+      ]
+    },
+    "properties": {
+      "title": "The Grind Coffee Bar & Cafe at Westchase",
+      "url": "http://www.yelp.com/biz/the-grind-coffee-bar-and-cafe-at-westchase-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "9532 W Linebaugh Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-grind-coffee-bar-and-cafe-at-westchase-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.483729,
+        27.930772
+      ]
+    },
+    "properties": {
+      "title": "Chocolate Pi",
+      "url": "http://www.yelp.com/biz/chocolate-pi-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1205 S Howard Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "chocolate-pi-tampa-2",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4596634,
+        27.9919891
+      ]
+    },
+    "properties": {
+      "title": "The Independent",
+      "url": "http://www.yelp.com/biz/the-independent-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "5016 N Florida Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "the-independent-tampa",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4766945,
+        27.9356197
+      ]
+    },
+    "properties": {
+      "title": "Piquant",
+      "url": "http://www.yelp.com/biz/piquant-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1633 W Snow Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "piquant-tampa-2",
+      "toggle": "Host table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  }
+]
