@@ -72,6 +72,6 @@ function markerColor(b){
 };
 
 function toggleButton(b){
-    let text = b ? "Stop hosting" : "Host table";
+    let text = b ? "Stop sharing" : "Split a table";
     return text;
 };

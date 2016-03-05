@@ -15,7 +15,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "jet-city-espresso-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -36,7 +36,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "the-library-coffeehouse-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -57,7 +57,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "ginger-beard-coffee-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -78,28 +78,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "buddy-brew-coffee-tampa-3",
-      "toggle": "Host table",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -82.4598236,
-        27.9508896
-      ]
-    },
-    "properties": {
-      "title": "Kahwa Coffee Roasting",
-      "url": "http://www.yelp.com/biz/kahwa-coffee-roasting-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "808 N Franklin St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "kahwa-coffee-roasting-tampa-2",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -120,7 +99,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "jet-city-espresso-tampa-2",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -141,7 +120,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "sips-specialty-coffee-house-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -162,7 +141,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "coffee-evi-tampa-3",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -183,7 +162,28 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "the-blind-tiger-cafe-ybor-city-tampa-5",
-      "toggle": "Host table",
+      "toggle": "Split a table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.4598236,
+        27.9508896
+      ]
+    },
+    "properties": {
+      "title": "Kahwa Coffee Roasting",
+      "url": "http://www.yelp.com/biz/kahwa-coffee-roasting-tampa-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "808 N Franklin St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "kahwa-coffee-roasting-tampa-2",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -204,7 +204,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "di-coffee-bar-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -225,7 +225,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "victory-coffee-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -246,7 +246,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "kahwa-coffee-tampa-2",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -267,7 +267,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "felicitous-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -288,7 +288,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "mini-doughnut-factory-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -309,7 +309,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "the-bunker-tampa-3",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -330,7 +330,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "the-grind-coffee-bar-and-cafe-at-westchase-tampa",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -351,7 +351,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "chocolate-pi-tampa-2",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
@@ -370,10 +370,10 @@
       "url": "http://www.yelp.com/biz/the-independent-tampa?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
       "address": "5016 N Florida Ave",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
+      "host": true,
       "id": "the-independent-tampa",
-      "toggle": "Host table",
-      "marker-color": "#fc4353",
+      "toggle": "Stop sharing",
+      "marker-color": "#FC7143",
       "marker-size": "small"
     }
   },
@@ -393,7 +393,7 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "piquant-tampa-2",
-      "toggle": "Host table",
+      "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
     }
