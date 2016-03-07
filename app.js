@@ -2,7 +2,7 @@
 
 //vars set within the gulpfile. 
 let nodePort = process.env.PORT || 3000;
-let dbConn = process.env.DBCONN || 'mongodb://localhost/fifty-fifty';
+let dbConn = process.env.DBCONN;
 
 const express = require('express');
 const cons = require('consolidate');
