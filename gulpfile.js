@@ -10,7 +10,7 @@ gulp.task('serve', () => {
     let options = {
         script: 'app.js',
         delayTime: 1,
-        env:{'PORT': 5000, 'DBCONN':'mongodb://localhost/fifty-fifty'},
+        env:{'PORT': 3000, 'DBCONN':'mongodb://localhost/fifty-fifty'},
         watch: jsFiles
     };
     return nodemon(options)

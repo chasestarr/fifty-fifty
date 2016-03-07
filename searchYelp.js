@@ -9,15 +9,18 @@ module.exports = {
 }
 
 function searchYelp(params, callback){
+    //As it loops through the api response, populate this array below
     let newMap = [];
     let outputCount = 1;
-
+    
+    //Send a request to yelp api
     yelp.search(params, (e,res) => {
         if(e) return console.error(e);
         let center = [res.region.center.latitude, res.region.center.longitude];
 
-        //Map api response to format readable by mapbox
-        res.businesses.map((element) => {
+        //Loop through api response, create a new data package that is readable by mapbox
+        res.businesses.forEach((element) => {
+            //check the database to see if any cafe currently has a host
             dbUtils.read(element.id)
                 .then((tableStatus) => {
                     return {
@@ -44,6 +47,7 @@ function searchYelp(params, callback){
                         outputCount += 1;
                         newMap.push(output);
                     } else {
+                        //call callback function with map data and center data. reset values
                         callback(newMap, center);
                         newMap = [];
                         outputCount = 1;
@@ -66,11 +70,13 @@ function starRating(num){
     return stars;
 };
 
+//return marker color based on boolean
 function markerColor(b){
     let color  = b ? "#FC7143" : "#fc4353";
     return color;
 };
 
+//return text for a button based on boolean
 function toggleButton(b){
     let text = b ? "Stop sharing" : "Split a table";
     return text;

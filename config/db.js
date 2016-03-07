@@ -8,6 +8,7 @@ module.exports = {
     write: writeDb
 };
 
+//search database on the id val. If the db has data on that id, return the host val, if not return true
 function readDb(id){
     return new Promise((resolve, reject) => {
         let Restaurant = schema.restaurant;
@@ -18,6 +19,7 @@ function readDb(id){
     });
 }
 
+//search the database on the id val. If the db has data on that id, update with new info, if not create a new document insert data
 function writeDb(id){
     return new Promise((resolve, reject) => {
         let Restaurant = schema.restaurant;
