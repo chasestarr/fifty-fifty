@@ -25,6 +25,27 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
+        -122.439849853516,
+        37.7996597290039
+      ]
+    },
+    "properties": {
+      "title": "Bereka Coffee",
+      "url": "http://www.yelp.com/biz/bereka-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2320 Lombard St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "bereka-coffee-san-francisco",
+      "toggle": "Split a table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
         -122.422026,
         37.798473
       ]
@@ -46,17 +67,17 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.439849853516,
-        37.7996597290039
+        -122.42184275,
+        37.7670169511878
       ]
     },
     "properties": {
-      "title": "Bereka Coffee",
-      "url": "http://www.yelp.com/biz/bereka-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2320 Lombard St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "title": "Four Barrel Coffee",
+      "url": "http://www.yelp.com/biz/four-barrel-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "375 Valencia St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "bereka-coffee-san-francisco",
+      "id": "four-barrel-coffee-san-francisco",
       "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
@@ -88,17 +109,101 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.42184275,
-        37.7670169511878
+        -122.423211,
+        37.77638
       ]
     },
     "properties": {
-      "title": "Four Barrel Coffee",
-      "url": "http://www.yelp.com/biz/four-barrel-coffee-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "375 Valencia St",
+      "title": "Blue Bottle Coffee",
+      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-8?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "315 Linden St",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
-      "id": "four-barrel-coffee-san-francisco",
+      "id": "blue-bottle-coffee-san-francisco-8",
+      "toggle": "Split a table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.420526,
+        37.782383
+      ]
+    },
+    "properties": {
+      "title": "Philz Coffee",
+      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "748 Van Ness Ave",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "philz-coffee-san-francisco-4",
+      "toggle": "Split a table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.4529495,
+        37.7814293
+      ]
+    },
+    "properties": {
+      "title": "Fifty / Fifty Coffee and Tea",
+      "url": "http://www.yelp.com/biz/fifty-fifty-coffee-and-tea-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "3157 Geary Blvd",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": true,
+      "id": "fifty-fifty-coffee-and-tea-san-francisco",
+      "toggle": "Stop sharing",
+      "marker-color": "#FC7143",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.4409499,
+        37.7879217
+      ]
+    },
+    "properties": {
+      "title": "b. Patisserie",
+      "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "2821 California St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "b-patisserie-san-francisco-2",
+      "toggle": "Split a table",
+      "marker-color": "#fc4353",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.421371459961,
+        37.7564163208008
+      ]
+    },
+    "properties": {
+      "title": "Ritual Coffee Roasters",
+      "url": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "1026 Valencia St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "ritual-coffee-roasters-san-francisco",
       "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
@@ -151,90 +256,6 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -122.420526,
-        37.782383
-      ]
-    },
-    "properties": {
-      "title": "Philz Coffee",
-      "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "748 Van Ness Ave",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "philz-coffee-san-francisco-4",
-      "toggle": "Split a table",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.423211,
-        37.77638
-      ]
-    },
-    "properties": {
-      "title": "Blue Bottle Coffee",
-      "url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-8?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "315 Linden St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "blue-bottle-coffee-san-francisco-8",
-      "toggle": "Split a table",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4409499,
-        37.7879217
-      ]
-    },
-    "properties": {
-      "title": "b. Patisserie",
-      "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "2821 California St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "b-patisserie-san-francisco-2",
-      "toggle": "Split a table",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.421371459961,
-        37.7564163208008
-      ]
-    },
-    "properties": {
-      "title": "Ritual Coffee Roasters",
-      "url": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "1026 Valencia St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "ritual-coffee-roasters-san-francisco",
-      "toggle": "Split a table",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
         -122.419327,
         37.791405
       ]
@@ -269,27 +290,6 @@
       "id": "hole-in-the-wall-coffee-san-francisco",
       "toggle": "Split a table",
       "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4529495,
-        37.7814293
-      ]
-    },
-    "properties": {
-      "title": "Fifty / Fifty Coffee and Tea",
-      "url": "http://www.yelp.com/biz/fifty-fifty-coffee-and-tea-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "3157 Geary Blvd",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": true,
-      "id": "fifty-fifty-coffee-and-tea-san-francisco",
-      "toggle": "Stop sharing",
-      "marker-color": "#FC7143",
       "marker-size": "small"
     }
   },

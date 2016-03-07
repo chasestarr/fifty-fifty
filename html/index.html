@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200' rel='stylesheet' type='text/css'>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    <title>Fifty-Fifty</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>LetSpl.it</title>
     <style>
         body{ 
             margin:0;
@@ -46,6 +48,12 @@
             background-color: #fc4353;
             box-shadow: -1px 0px 5px #888888;
         }
+        #sidebar a:hover,
+        #sidebar a:link,
+        #sidebar a:visited
+        {
+            color: #ffffff;
+        }
         .search-ui {
             position:absolute;
             top:2.5em;
@@ -65,10 +73,7 @@
             font-size:12px;
             margin-top:4px;
         }
-        a:link, a:visited{
-            color: #fc4353;
-        }
-        a:hover, a:active{
+        a:link, a:visited, a:hover{
             color: #fc4353;
         }
         ::-webkit-input-placeholder{ /* WebKit, Blink, Edge */
@@ -98,11 +103,15 @@
 <body>
     <div id='map'></div>
     <div id='sidebar'>
-        <h1 id='title'>Spl<span id="spaced">it</span></h1>
+        <h1 id='title'>Spl<span id="spaced">.it</span></h1>
         <p id='sideBody'>
-            A simple way to find or share your table. 
+            <b>A simple way to find and share your table.</b>
+            </br></br>
+            Use the search bar above to find your location. Then choose a coffee shop in your area. 
+            Orange markers indicate that someone is sharing their table. Go meet them there!
+            </br></br>Coffee shops can fill up quick. Thankfully, some people are friendly. =)
             
-            </br></br>Make like a <i class="em em-banana"></i> and split.
+            </br></br>Made by  <a href="http://www.github.com/chasestarr">Chase Starr</a> <i class="em em-banana"></i>
         </p>
     </div>
     <form>
@@ -116,7 +125,7 @@
             var marker = e.layer;
             var feature = marker.feature;
                 
-            var content = "<b><a href='"+ feature.properties.url + "' target='_blank' class='businessTitle'>" + feature.properties.title + "<\/a><\/b>" +
+            var content = "<b><a id='marker' href='"+ feature.properties.url + "' target='_blank' class='businessTitle'>" + feature.properties.title + "<\/a><\/b>" +
             "<br>Address: " + feature.properties.address +
             "<br>Rating: " + feature.properties.rating + 
             "<br><form><button  type='submit' class='hostButton' name='id' value='" + feature.properties.id + "'>" + feature.properties.toggle + "<\/button><\/form>";
@@ -124,8 +133,6 @@
             marker.bindPopup(content, {closeButton: false});
         });
         myLayer.setGeoJSON({{geojson|json|raw}});
-        
-        
     </script>
 </body>
 </html>
