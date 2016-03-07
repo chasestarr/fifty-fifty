@@ -4,7 +4,7 @@ const dbConfig = require('./config/configFiles/dbConfig.js');
 
 //vars set within the gulpfile. 
 let nodePort = process.env.PORT || 3000;
-let dbConn = 'mongodb://heroku_gqh3ghk1:gqh3ghk1@ds023478.mlab.com:23478/heroku_gqh3ghk1';
+let dbConn = process.env.DBCONN || 'mongodb://'+ dbConfig.username + ':' + dbConfig.password + '@ds023478.mlab.com:23478/heroku_gqh3ghk1';
 
 const express = require('express');
 const cons = require('consolidate');
