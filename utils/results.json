@@ -139,8 +139,50 @@
       "url": "http://www.yelp.com/biz/philz-coffee-san-francisco-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
       "address": "748 Van Ness Ave",
       "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
+      "host": true,
       "id": "philz-coffee-san-francisco-4",
+      "toggle": "Stop sharing",
+      "marker-color": "#FC7143",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.4187899,
+        37.7470855
+      ]
+    },
+    "properties": {
+      "title": "CoffeeShop",
+      "url": "http://www.yelp.com/biz/coffeeshop-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "3139 Mission St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
+      "host": true,
+      "id": "coffeeshop-san-francisco",
+      "toggle": "Stop sharing",
+      "marker-color": "#FC7143",
+      "marker-size": "small"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.4249268,
+        37.7773209
+      ]
+    },
+    "properties": {
+      "title": "Artis Coffee",
+      "url": "http://www.yelp.com/biz/artis-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
+      "address": "537 Octavia St",
+      "rating": "&#9734;&#9734;&#9734;&#9734;",
+      "host": false,
+      "id": "artis-coffee-san-francisco-3",
       "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"
@@ -204,48 +246,6 @@
       "rating": "&#9734;&#9734;&#9734;&#9734;",
       "host": false,
       "id": "ritual-coffee-roasters-san-francisco",
-      "toggle": "Split a table",
-      "marker-color": "#fc4353",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4187899,
-        37.7470855
-      ]
-    },
-    "properties": {
-      "title": "CoffeeShop",
-      "url": "http://www.yelp.com/biz/coffeeshop-san-francisco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "3139 Mission St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;&#9734;",
-      "host": true,
-      "id": "coffeeshop-san-francisco",
-      "toggle": "Stop sharing",
-      "marker-color": "#FC7143",
-      "marker-size": "small"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.4249268,
-        37.7773209
-      ]
-    },
-    "properties": {
-      "title": "Artis Coffee",
-      "url": "http://www.yelp.com/biz/artis-coffee-san-francisco-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=472EycbYQJVn0lFqlVl7Xg",
-      "address": "537 Octavia St",
-      "rating": "&#9734;&#9734;&#9734;&#9734;",
-      "host": false,
-      "id": "artis-coffee-san-francisco-3",
       "toggle": "Split a table",
       "marker-color": "#fc4353",
       "marker-size": "small"

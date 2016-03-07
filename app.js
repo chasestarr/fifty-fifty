@@ -16,12 +16,12 @@ const schema = require('./config/schema/databaseSchema');
 
 mongoose.connect(dbConn);
 const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error'));
-db.once('open', () => {
-    // connected
-    console.log('mongoose connected successfully');
-    require('./config/mongoose/seed')(db);
-});
+// db.on('error', console.error.bind(console, 'connection error'));
+// db.once('open', () => {
+//     // connected
+//     console.log('mongoose connected successfully');
+//     require('./config/mongoose/seed')(db);
+// });
 
 
 //setting up the swig templating. This will allow me to push the geoJSON data out to the html page.
