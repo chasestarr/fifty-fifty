@@ -3,5 +3,3 @@ node_modules
 .idea
 .vscode
 # Config File
-config/configFiles/yelpConfig.js
-config/configFiles/dbConfig.js
