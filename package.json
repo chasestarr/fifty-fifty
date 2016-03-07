@@ -2,7 +2,7 @@
   "name": "fifty-fifty",
   "version": "1.0.0",
   "description": "Coffe shop table-sharing app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
