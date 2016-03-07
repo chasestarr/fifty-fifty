@@ -2,7 +2,7 @@
 
 const gulp = require('gulp');
 const nodemon = require('gulp-nodemon');
-const dbConfig = require('./config/config/dbConfig.js');
+const dbConfig = require('./config/configFiles/dbConfig.js');
 
 
 let jsFiles = ['*.js'];
