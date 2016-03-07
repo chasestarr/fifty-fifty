@@ -3,4 +3,4 @@ node_modules
 .idea
 .vscode
 # Config File
-configs
+./config/configFiles
