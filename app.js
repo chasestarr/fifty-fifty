@@ -1,11 +1,8 @@
 'use strict'
 
-const dbConfig = require('./config/configFiles/dbConfig.js');
-
-//vars set within the gulpfile. 
 let nodePort = process.env.PORT || 3000;
-let dbConn = process.env.DBCONN || 'mongodb://chase:gqh3ghk1@ds023478.mlab.com:23478/heroku_gqh3ghk1';
-// let dbConn = "mongodb://localhost/fifty-fifty";
+let dbConn = process.env.DBCONN || 'mongodb://chase:gqh3ghk1@ds023478.mlab.com:23478/heroku_gqh3ghk1'; //comment to setup local db ***
+// let dbConn = "mongodb://localhost/fifty-fifty"; //uncomment for local db ***
 const express = require('express');
 const cons = require('consolidate');
 const swig = require('swig');
@@ -16,6 +13,8 @@ const schema = require('./config/schema/databaseSchema');
 
 mongoose.connect(dbConn);
 const db = mongoose.connection;
+
+//*** Uncomment to seed the database ***
 // db.on('error', console.error.bind(console, 'connection error'));
 // db.once('open', () => {
 //     // connected
